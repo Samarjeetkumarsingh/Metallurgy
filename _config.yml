@@ -1,11 +1,15 @@
 ### your site title here
 
-title: Your Name
-description: subtitle | affiliations | motto
+title: Samarjeet Kumar Singh
+description: Building, TestUrSelf | IISc Bengaluru | BOD, Kartavya | Materials Engineering
 
-baseurl: /gradfolio #name of GitHub repository
-url: "" #custom url to be used instead of GitHub repository
-email: #
+baseurl:
+url: "https://gometallurgy.in" 
+email: samarjeet.xyz@gmail.com
+
+
+highlighter: rouge
+markdown: gfm
 
 # Pagination
 paginate: 4
@@ -13,24 +17,20 @@ permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
 # Social media links in footer
-linkedin: "#"
-stackoverflow: "#"
-github: "#"
-researchgate: "#"
-orcid: "#"
-quora: "#"
-instagram: "#"
-facebook: "#"
-bluesky: "#"
+facebook: "samarjeetkumarsingh"
+twitter: "samarjeetksingh"
+linkedin: "samarjeet-kumar-singh"
+github: "samarjeetkumarsingh"
+researchgate: "Samarjeet-Singh-10"
+orcid: "0000-0002-7828-175X"
 
-# Markdown
 highlighter: rouge
 markdown: kramdown
 
 # Tracker
 analytics:
 
-# optimization -> compress.html
+#optimization -> compress.html
 compress_html:
   clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
   comments: ["<!-- ", " -->"]
@@ -45,14 +45,7 @@ compress_html:
 collections:
   projects:
     output: true
-    permalink: /projects/:name/
-    order:
-      - shortProject.md
-      - longerProjectTitle.md
-      - redirect.md
-      - project4.md
-      - project5.md
-      - project6.md
+    permalink: /projects/:path/
 
 sass:
   sass_dir: /assets/css/_sass
@@ -70,3 +63,5 @@ plugins:
   - jekyll-paginate
   - jekyll-email-protect
   - jekyll-target-blank
+
+theme: jekyll-theme-cayman
