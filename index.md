@@ -40,6 +40,7 @@
             color: var(--text-primary);
             background-color: var(--dark-bg);
             overflow-x: hidden;
+            margin: 0 auto;
         }
         
         .container {
@@ -881,8 +882,8 @@
     <header>
         <div class="container header-container">
             <div class="logo">
-                <div class="logo-icon">TU</div>
                 <div class="logo-text">TestUrSelf</div>
+
             </div>
             
             <div class="mobile-menu">
