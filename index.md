@@ -35,7 +35,9 @@
             background-color: var(--black);
             color: var(--white);
             line-height: 1.7;
-            overflow-x: hidden;
+            overflow-x: hidden; 
+            max-width:100%;
+            width:96%;
         }
 
         h1, h2, h3, h4 {
