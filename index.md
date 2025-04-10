@@ -1119,8 +1119,8 @@
     <header>
         <div class="header-container">
             <div class="logo">
-                <div class="logo-icon">SKS</div>
-                <div class="logo-text">Samarjeet</div>
+                <div class="logo-icon">B</div>
+                <div class="logo-text">Blog Website</div>
             </div>
             
             <nav>
