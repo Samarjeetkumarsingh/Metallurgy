@@ -1022,32 +1022,6 @@
 </head>
 <body>
     <!-- **Header (Gold Navbar) ** -->
-    <header>
-        <div class="header-container">
-            <div class="logo">
-                <div class="logo-text">TestUrSelf</div>
-            </div>
-            
-            <div class="mobile-menu">
-                <i class="fas fa-bars"></i>
-            </div>
-            
-            <nav>
-                <ul>
-                    <li><a href="#" class="active">Home</a></li>
-                    <li><a href="#journey">My Journey</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                    <li><a href="#testimonials">Testimonials</a></li>
-                    <li><a href="#">TestUrSelf</a></li>
-                </ul>
-            </nav>
-            
-            <div class="nav-cta">
-                <a href="#" class="btn btn-outline">Contact</a>
-                <a href="#" class="btn btn-primary">Join Community</a>
-            </div>
-        </div>
-    </header>
 
     <!-- **Hero Section (Floating Profile Image) ** -->
     <section class="hero">
