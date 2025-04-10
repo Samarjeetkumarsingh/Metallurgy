@@ -1186,7 +1186,7 @@
                 <div class="timeline-item">
                     <div class="timeline-content">
                         <div class="timeline-year">2016</div>
-                        <h3 class="timeline-title">AIR 32 in GATE</h3>
+                        <h3 class="timeline-title">AIR 7 in GATE</h3>
                         <p class="timeline-desc">Secured All India Rank 7 in GATE, paving the way for my M.Tech at IISc Benguluru.</p>
                     </div>
                 </div>
