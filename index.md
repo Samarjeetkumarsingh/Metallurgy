@@ -21,6 +21,7 @@
             --border-radius: 16px;
             --box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
             --transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+            --section-padding: 120px;
         }
 
         * {
@@ -56,10 +57,12 @@
 .header-container {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0 2rem;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-sizing: border-box;
 }
         
 
