@@ -327,6 +327,7 @@
             margin-bottom: 1rem;
             position: relative;
             display: inline-block;
+            color:gold;
         }
 
         .section-header h2::after {
