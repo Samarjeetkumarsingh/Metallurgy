@@ -1179,15 +1179,15 @@
         <div class="container">
             <div class="section-header">
                 <h2>My Journey</h2>
-                <p>From GATE aspirant to creating India's most trusted GATE preparation platform</p>
+                <p>From GATE aspirant to creating India's most trusted GATE MT & XE preparation platform</p>
             </div>
             
             <div class="timeline">
                 <div class="timeline-item">
                     <div class="timeline-content">
-                        <div class="timeline-year">2015</div>
+                        <div class="timeline-year">2016</div>
                         <h3 class="timeline-title">AIR 32 in GATE</h3>
-                        <p class="timeline-desc">Secured All India Rank 32 in GATE, paving the way for my M.Tech at IIT Delhi.</p>
+                        <p class="timeline-desc">Secured All India Rank 7 in GATE, paving the way for my M.Tech at IISc Benguluru.</p>
                     </div>
                 </div>
                 
@@ -1195,43 +1195,43 @@
                     <div class="timeline-content">
                         <div class="timeline-year">2017</div>
                         <h3 class="timeline-title">Teaching Passion</h3>
-                        <p class="timeline-desc">Started mentoring GATE aspirants, realizing the gaps in engineering education.</p>
+                        <p class="timeline-desc">Started mentoring GATE aspirants and realized the gaps in the Metallurgical Engineering stream.</p>
                     </div>
                 </div>
                 
                 <div class="timeline-item">
                     <div class="timeline-content">
-                        <div class="timeline-year">2018</div>
+                        <div class="timeline-year">2017</div>
                         <h3 class="timeline-title">Founded TestUrSelf</h3>
-                        <p class="timeline-desc">Launched TestUrSelf with a vision to democratize quality GATE preparation.</p>
+                        <p class="timeline-desc">Launched TestUrSelf with a vision to make quality GATE preparation accessible to all.</p>
                     </div>
                 </div>
                 
                 <div class="timeline-item">
                     <div class="timeline-content">
-                        <div class="timeline-year">2023</div>
-                        <h3 class="timeline-title">50,000+ Students</h3>
-                        <p class="timeline-desc">TestUrSelf became India's fastest-growing GATE platform with 150+ toppers.</p>
+                        <div class="timeline-year">2025</div>
+                        <h3 class="timeline-title">17,000+ Students</h3>
+                        <p class="timeline-desc">TestUrSelf became India's fastest-growing GATE MT and XE platform, with 460+ toppers in the Top 100.</p>
                     </div>
                 </div>
             </div>
             
             <div class="journey-stats">
                 <div class="stat-card">
-                    <div class="stat-number">50K+</div>
-                    <div class="stat-label">Students</div>
+                    <div class="stat-number">17K+</div>
+                    <div class="stat-label">Registered Students</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-number">150+</div>
-                    <div class="stat-label">GATE Toppers</div>
+                    <div class="stat-number">460+</div>
+                    <div class="stat-label">GATE Toppers in Top 100</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-number">5+</div>
+                    <div class="stat-number">8+</div>
                     <div class="stat-label">Years Experience</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-number">10M+</div>
-                    <div class="stat-label">YouTube Views</div>
+                    <div class="stat-number">8++</div>
+                    <div class="stat-label">AIR 1 in GATE/div>
                 </div>
             </div>
         </div>
