@@ -29,14 +29,12 @@
             box-sizing: border-box;
         }
 
-       body {
-    font-family: 'Poppins', sans-serif;
-    background-color: var(--black);
-    color: var(--text);
-    overflow-x: hidden;
-    line-height: 1.8;
-    margin: 0;
-    width: 100%; /* or 100vw */
+    body {
+            font-family: 'Poppins', sans-serif;
+            background-color: var(--black);
+            color: var(--white);
+            line-height: 1.7;
+            overflow-x: hidden;
         }
 
         h1, h2, h3, h4 {
@@ -44,24 +42,26 @@
             font-weight: 700;
         }
 
-        /* **Header (Sticky Gold Navbar) ** */
         header {
-            background: rgba(0, 0, 0, 0.9);
-            backdrop-filter: blur(10px);
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            border-bottom: 1px solid rgba(255, 215, 0, 0.2);
-        }
+    background: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid rgba(255, 215, 0, 0.2);
+    padding: 25px 0;
+    transition: all 0.3s ease;
+}
 
-        .header-container {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 1.5rem 2rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+.header-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+        
 
         .logo {
             display: flex;
