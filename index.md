@@ -422,6 +422,7 @@
         .timeline-title {
             font-size: 1.5rem;
             margin-bottom: 1rem;
+            color: gold;
         }
 
         .timeline-desc {
