@@ -1,3 +1,4 @@
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,7 +30,7 @@
             box-sizing: border-box;
         }
 
-    body {
+        body {
             font-family: 'Poppins', sans-serif;
             background-color: var(--black);
             color: var(--white);
@@ -45,26 +46,26 @@
         }
 
         header {
-    background: rgba(0, 0, 0, 0.9);
-    backdrop-filter: blur(10px);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    border-bottom: 1px solid rgba(255, 215, 0, 0.2);
-    padding: 25px 0;
-    transition: all 0.3s ease;
-}
+            background: rgba(0, 0, 0, 0.9);
+            backdrop-filter: blur(10px);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 1px solid rgba(255, 215, 0, 0.2);
+            padding: 25px 0;
+            transition: all 0.3s ease;
+        }
 
-.header-container {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 2rem;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
-}
+        .header-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-sizing: border-box;
+        }
         
 
         .logo {
@@ -249,6 +250,26 @@
             background: linear-gradient(to right, var(--gold), var(--gold-light));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            position: relative;
+            display: inline-block;
+        }
+
+        .hero h1 .name-part {
+            display: inline-block;
+            transition: all 0.3s ease;
+        }
+
+        .hero h1:hover .name-part {
+            transform: translateY(-5px) rotate(2deg);
+            text-shadow: 0 5px 15px rgba(255, 215, 0, 0.4);
+        }
+
+        .hero h1:hover .name-part:nth-child(2) {
+            transform: translateY(-7px) rotate(-3deg);
+        }
+
+        .hero h1:hover .name-part:nth-child(3) {
+            transform: translateY(-3px) rotate(5deg);
         }
 
         .hero h2 {
@@ -465,7 +486,7 @@
             color: var(--text-light);
         }
 
-        /* **Blog Section (Featured Posts) ** */
+        /* **Enhanced Blog Section with Tabs ** */
         .blog {
             padding: 6rem 0;
             background: var(--black);
@@ -501,6 +522,57 @@
             text-align: right;
         }
 
+        /* Blog Tabs */
+        .blog-tabs {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 3rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .blog-tab {
+            padding: 0.8rem 1.8rem;
+            border-radius: 50px;
+            background: transparent;
+            color: var(--text-light);
+            border: 2px solid rgba(255, 215, 0, 0.3);
+            cursor: pointer;
+            font-weight: 600;
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        .blog-tab::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 100%;
+            background: linear-gradient(to right, var(--gold), var(--gold-dark));
+            transition: var(--transition);
+            z-index: -1;
+        }
+
+        .blog-tab:hover {
+            color: var(--black);
+        }
+
+        .blog-tab:hover::before {
+            width: 100%;
+        }
+
+        .blog-tab.active {
+            background: linear-gradient(to right, var(--gold), var(--gold-dark));
+            color: var(--black);
+            border-color: var(--gold);
+            box-shadow: 0 5px 15px rgba(255, 215, 0, 0.3);
+        }
+
+        /* Blog Grid */
         .blog-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -525,6 +597,7 @@
         .blog-image {
             height: 250px;
             overflow: hidden;
+            position: relative;
         }
 
         .blog-image img {
@@ -536,6 +609,19 @@
 
         .blog-card:hover .blog-image img {
             transform: scale(1.1);
+        }
+
+        .blog-category {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: rgba(0, 0, 0, 0.8);
+            color: var(--gold);
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            z-index: 2;
         }
 
         .blog-content {
@@ -998,6 +1084,9 @@
                 flex-direction: column;
                 align-items: center;
             }
+            .blog-tabs {
+                justify-content: flex-start;
+            }
         }
 
         @media (max-width: 576px) {
@@ -1027,12 +1116,42 @@
 </head>
 <body>
     <!-- **Header (Gold Navbar) ** -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <div class="logo-icon">SKS</div>
+                <div class="logo-text">Samarjeet</div>
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#journey">Journey</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                </ul>
+            </nav>
+            
+            <div class="nav-cta">
+                <a href="#" class="btn btn-outline">Contact</a>
+                <a href="#" class="btn btn-primary">Join Masterclass</a>
+            </div>
+            
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
 
     <!-- **Hero Section (Floating Profile Image) ** -->
     <section class="hero">
         <div class="hero-content">
             <div class="hero-text">
-                <h1>Samarjeet Kumar Singh</h1>
+                <h1>
+                    <span class="name-part">Samarjeet</span>
+                    <span class="name-part">Kumar</span>
+                    <span class="name-part">Singh</span>
+                </h1>
                 <h2>Founder & CEO of TestUrSelf</h2>
                 <p>Education Entrepreneur | GATE Mentor | Transforming Engineering Education in India</p>
                 
@@ -1118,7 +1237,7 @@
         </div>
     </section>
 
-    <!-- **Blog Section (Featured Posts) ** -->
+    <!-- **Enhanced Blog Section with Tabs ** -->
     <section class="blog" id="blog">
         <div class="container">
             <div class="blog-header">
@@ -1129,22 +1248,36 @@
                 <a href="#" class="btn btn-outline">View All Articles</a>
             </div>
             
+            <!-- Blog Tabs -->
+            <div class="blog-tabs">
+                <div class="blog-tab active" data-category="all">All Articles</div>
+                <div class="blog-tab" data-category="gate">GATE Preparation</div>
+                <div class="blog-tab" data-category="edtech">EdTech Insights</div>
+                <div class="blog-tab" data-category="career">Career Guidance</div>
+                <div class="blog-tab" data-category="entrepreneurship">Entrepreneurship</div>
+            </div>
+            
+            <!-- Blog Grid -->
             <div class="blog-grid">
-                <article class="blog-card featured-post">
+                <!-- Featured Post -->
+                <article class="blog-card featured-post" data-category="edtech">
                     <div class="blog-image">
                         <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Future of EdTech">
+                        <span class="blog-category">EdTech</span>
                     </div>
                     <div class="blog-content">
                         <div class="blog-meta">
                             <span><i class="far fa-calendar"></i> June 15, 2025</span>
                             <span><i class="far fa-eye"></i> 8.7K Views</span>
+                            <span><i class="far fa-comment"></i> 42 Comments</span>
                         </div>
                         <h3>The Future of EdTech in India</h3>
-                        <p>Exploring how platforms like TestUrSelf are revolutionizing engineering education with AI and personalized learning.</p>
+                        <p>Exploring how platforms like TestUrSelf are revolutionizing engineering education with AI and personalized learning. Discover the trends shaping the future of education technology in India.</p>
                         <div class="blog-tags">
                             <span class="blog-tag">EdTech</span>
                             <span class="blog-tag">Innovation</span>
                             <span class="blog-tag">Future</span>
+                            <span class="blog-tag">AI</span>
                         </div>
                         <a href="#" class="read-more">
                             Read More
@@ -1153,21 +1286,25 @@
                     </div>
                 </article>
                 
-                <article class="blog-card">
+                <!-- GATE Preparation Post -->
+                <article class="blog-card" data-category="gate">
                     <div class="blog-image">
                         <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="GATE Strategy">
+                        <span class="blog-category">GATE</span>
                     </div>
                     <div class="blog-content">
                         <div class="blog-meta">
                             <span><i class="far fa-calendar"></i> May 28, 2025</span>
                             <span><i class="far fa-eye"></i> 12.3K Views</span>
+                            <span><i class="far fa-comment"></i> 87 Comments</span>
                         </div>
                         <h3>My 6-Month GATE Preparation Strategy</h3>
-                        <p>The exact roadmap I followed to secure AIR 32 in GATE, including study schedules and key resources.</p>
+                        <p>The exact roadmap I followed to secure AIR 32 in GATE, including study schedules, key resources, and mindset techniques that can help you achieve similar success.</p>
                         <div class="blog-tags">
                             <span class="blog-tag">GATE</span>
                             <span class="blog-tag">Strategy</span>
                             <span class="blog-tag">Success</span>
+                            <span class="blog-tag">Study Plan</span>
                         </div>
                         <a href="#" class="read-more">
                             Read More
@@ -1176,21 +1313,106 @@
                     </div>
                 </article>
                 
-                <article class="blog-card">
+                <!-- Entrepreneurship Post -->
+                <article class="blog-card" data-category="entrepreneurship">
                     <div class="blog-image">
                         <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Entrepreneurship">
+                        <span class="blog-category">Entrepreneurship</span>
                     </div>
                     <div class="blog-content">
                         <div class="blog-meta">
                             <span><i class="far fa-calendar"></i> April 22, 2025</span>
                             <span><i class="far fa-eye"></i> 5.4K Views</span>
+                            <span><i class="far fa-comment"></i> 23 Comments</span>
                         </div>
                         <h3>From Engineer to Entrepreneur</h3>
-                        <p>My journey of building TestUrSelf from a small coaching initiative to India's premier GATE platform.</p>
+                        <p>My journey of building TestUrSelf from a small coaching initiative to India's premier GATE platform, including the challenges and lessons learned along the way.</p>
                         <div class="blog-tags">
                             <span class="blog-tag">Entrepreneurship</span>
                             <span class="blog-tag">Startup</span>
                             <span class="blog-tag">Journey</span>
+                            <span class="blog-tag">Lessons</span>
+                        </div>
+                        <a href="#" class="read-more">
+                            Read More
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <!-- Career Guidance Post -->
+                <article class="blog-card" data-category="career">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Career Paths">
+                        <span class="blog-category">Career</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> March 15, 2025</span>
+                            <span><i class="far fa-eye"></i> 9.1K Views</span>
+                            <span><i class="far fa-comment"></i> 34 Comments</span>
+                        </div>
+                        <h3>Engineering Career Paths After GATE</h3>
+                        <p>A comprehensive guide to the various career opportunities available after GATE, including PSU jobs, higher education abroad, research opportunities, and more.</p>
+                        <div class="blog-tags">
+                            <span class="blog-tag">Career</span>
+                            <span class="blog-tag">GATE</span>
+                            <span class="blog-tag">Opportunities</span>
+                            <span class="blog-tag">PSU</span>
+                        </div>
+                        <a href="#" class="read-more">
+                            Read More
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <!-- EdTech Post -->
+                <article class="blog-card" data-category="edtech">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="Personalized Learning">
+                        <span class="blog-category">EdTech</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> February 28, 2025</span>
+                            <span><i class="far fa-eye"></i> 6.8K Views</span>
+                            <span><i class="far fa-comment"></i> 19 Comments</span>
+                        </div>
+                        <h3>The Power of Personalized Learning</h3>
+                        <p>How adaptive learning technologies are transforming education and why one-size-fits-all approaches are becoming obsolete in the digital age.</p>
+                        <div class="blog-tags">
+                            <span class="blog-tag">EdTech</span>
+                            <span class="blog-tag">Learning</span>
+                            <span class="blog-tag">Technology</span>
+                            <span class="blog-tag">Adaptive</span>
+                        </div>
+                        <a href="#" class="read-more">
+                            Read More
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <!-- GATE Preparation Post -->
+                <article class="blog-card" data-category="gate">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Time Management">
+                        <span class="blog-category">GATE</span>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> January 10, 2025</span>
+                            <span><i class="far fa-eye"></i> 11.2K Views</span>
+                            <span><i class="far fa-comment"></i> 45 Comments</span>
+                        </div>
+                        <h3>Time Management for GATE Aspirants</h3>
+                        <p>Proven techniques to maximize your study efficiency, balance preparation with college/work, and make the most of your limited time before the exam.</p>
+                        <div class="blog-tags">
+                            <span class="blog-tag">GATE</span>
+                            <span class="blog-tag">Time Management</span>
+                            <span class="blog-tag">Productivity</span>
+                            <span class="blog-tag">Study Tips</span>
                         </div>
                         <a href="#" class="read-more">
                             Read More
@@ -1421,6 +1643,44 @@
         // Run animation check on load and scroll
         window.addEventListener('load', animateOnScroll);
         window.addEventListener('scroll', animateOnScroll);
+
+        // Blog Tab Filtering
+        const blogTabs = document.querySelectorAll('.blog-tab');
+        const blogCards = document.querySelectorAll('.blog-card');
+        
+        blogTabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                // Remove active class from all tabs
+                blogTabs.forEach(t => t.classList.remove('active'));
+                // Add active class to clicked tab
+                tab.classList.add('active');
+                
+                const category = tab.dataset.category;
+                
+                // Filter blog cards
+                blogCards.forEach(card => {
+                    if (category === 'all' || card.dataset.category === category) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Name Animation on Hover
+        const nameParts = document.querySelectorAll('.name-part');
+        
+        nameParts.forEach((part, index) => {
+            part.addEventListener('mouseover', () => {
+                // Add a slight delay based on index for a wave effect
+                part.style.transitionDelay = `${index * 0.1}s`;
+            });
+            
+            part.addEventListener('mouseout', () => {
+                part.style.transitionDelay = '0s';
+            });
+        });
     </script>
 </body>
 </html>
