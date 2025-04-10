@@ -147,8 +147,8 @@
         }
 
         .btn-outline {
-            border: 2px solid var(--gold);
-            color: var(--gold);
+            border: 2px solid black;
+            color: black;
             background: transparent;
         }
 
