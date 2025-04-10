@@ -1230,7 +1230,7 @@
                     <div class="stat-label">Years Experience</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-number">8++</div>
+                    <div class="stat-number">8+/div>
                     <div class="stat-label">AIR 1 in GATE/div>
                 </div>
             </div>
