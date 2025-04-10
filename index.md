@@ -565,6 +565,7 @@
             font-size: 1.5rem;
             margin-bottom: 1rem;
             line-height: 1.4;
+            color: gold;
         }
 
         .blog-card p {
@@ -619,6 +620,7 @@
 
         .featured-post h3 {
             font-size: 2rem;
+            color: gold;
         }
 
         /* **Testimonials (Interactive Cards) ** */
