@@ -2,116 +2,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="TestUrSelf - India's premier GATE 2026 preparation platform with expert guidance, comprehensive study materials, and proven strategies for top ranks">
-    <meta name="keywords" content="GATE 2026, GATE preparation, engineering exam, PSU recruitment, IIT admission, online coaching, test series">
-    <meta name="author" content="TestUrSelf">
-    <title>GATE 2026 Preparation | TestUrSelf - Your Ultimate Success Partner</title>
+    <title>Samarjeet Kumar Singh | Founder of TestUrSelf</title>
+    <meta name="description" content="Education Entrepreneur | GATE Mentor | Transforming Engineering Education">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <style>
         :root {
+            --gold: #FFD700;
+            --gold-light: #FFECB3;
+            --gold-dark: #C9A227;
+            --black: #000000;
             --dark-bg: #121212;
-            --darker-bg: #0a0a0a;
-            --card-bg: #1e1e1e;
-            --accent: #6c63ff;
-            --accent-light: #857dff;
-            --accent-dark: #554ee6;
-            --text-primary: #ffffff;
-            --text-secondary: #b3b3b3;
-            --success: #4caf50;
-            --warning: #ff9800;
-            --danger: #f44336;
-            --border-radius: 12px;
-            --box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
-            --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            --darker-bg: #0A0A0A;
+            --text: #FFFFFF;
+            --text-light: #E0E0E0;
+            --accent: #6C63FF;
+            --success: #42B883;
+            --border-radius: 16px;
+            --box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            --transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
         }
-        
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        
-        body {
-            font-family: 'Inter', sans-serif;
-            line-height: 1.7;
-            color: var(--text-primary);
-            background-color: var(--dark-bg);
-            overflow-x: hidden;
-            margin: 0 auto;
+
+       body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--black);
+    color: var(--text);
+    overflow-x: hidden;
+    line-height: 1.8;
+    margin: 0;
+    width: 100%; /* or 100vw */
         }
-        
-        .container {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 0 20px;
+
+        h1, h2, h3, h4 {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
         }
-        
-        /* Header Styles */
+
+        /* **Header (Sticky Gold Navbar) ** */
         header {
-            background-color: rgba(18, 18, 18, 0.9);
+            background: rgba(0, 0, 0, 0.9);
             backdrop-filter: blur(10px);
             position: sticky;
             top: 0;
             z-index: 1000;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            border-bottom: 1px solid rgba(255, 215, 0, 0.2);
         }
-        
+
         .header-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem 2rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 1.2rem 0;
         }
-        
+
         .logo {
             display: flex;
             align-items: center;
             gap: 10px;
         }
-        
+
         .logo-icon {
-            width: 40px;
-            height: 40px;
-            background: var(--accent);
-            border-radius: 8px;
+            width: 45px;
+            height: 45px;
+            background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+            border-radius: 10px;
             display: flex;
             align-items: center;
             justify-content: center;
-            color: white;
+            color: var(--black);
             font-weight: 700;
-            font-size: 1.2rem;
+            font-size: 1.3rem;
+            box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
         }
-        
+
         .logo-text {
-            font-size: 1.5rem;
+            font-size: 1.8rem;
             font-weight: 700;
-            background: linear-gradient(to right, var(--accent), var(--accent-light));
+            background: linear-gradient(to right, var(--gold), var(--gold-light));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
-        
+
         nav ul {
             display: flex;
-            list-style: none;
             gap: 2rem;
+            list-style: none;
         }
-        
+
         nav ul li a {
-            color: var(--text-secondary);
+            color: var(--text-light);
             text-decoration: none;
-            font-weight: 500;
+            font-weight: 600;
             transition: var(--transition);
             position: relative;
             padding: 0.5rem 0;
         }
-        
+
         nav ul li a:hover {
-            color: var(--text-primary);
+            color: var(--gold);
         }
-        
+
         nav ul li a::after {
             content: '';
             position: absolute;
@@ -119,311 +117,478 @@
             left: 0;
             width: 0;
             height: 2px;
-            background: var(--accent);
+            background: var(--gold);
             transition: var(--transition);
         }
-        
+
         nav ul li a:hover::after {
             width: 100%;
         }
-        
+
         .nav-cta {
             display: flex;
             gap: 1rem;
-            align-items: center;
         }
-        
+
         .btn {
-            padding: 0.7rem 1.5rem;
+            padding: 0.8rem 1.8rem;
             border-radius: var(--border-radius);
             font-weight: 600;
             cursor: pointer;
             transition: var(--transition);
             text-decoration: none;
             display: inline-block;
+            border: none;
         }
-        
+
         .btn-outline {
-            border: 2px solid var(--accent);
-            color: var(--accent);
+            border: 2px solid var(--gold);
+            color: var(--gold);
             background: transparent;
         }
-        
+
         .btn-outline:hover {
-            background: var(--accent);
-            color: white;
-            transform: translateY(-2px);
+            background: var(--gold);
+            color: var(--black);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 20px rgba(255, 215, 0, 0.3);
         }
-        
+
         .btn-primary {
-            background: var(--accent);
-            color: white;
-            border: 2px solid var(--accent);
+            background: linear-gradient(to right, var(--gold), var(--gold-dark));
+            color: var(--black);
         }
-        
+
         .btn-primary:hover {
-            background: var(--accent-dark);
-            transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(108, 99, 255, 0.3);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(255, 215, 0, 0.4);
         }
-        
+
         .mobile-menu {
             display: none;
-            font-size: 1.5rem;
+            font-size: 1.8rem;
             cursor: pointer;
+            color: var(--gold);
         }
-        
-        /* Hero Section */
+
+        /* **Hero Section (Floating Profile Image) ** */
         .hero {
-            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
-                        url('https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
-            padding: 6rem 0;
-            text-align: center;
+            padding: 8rem 0;
             position: relative;
+            overflow: hidden;
+            background: radial-gradient(circle at 20% 50%, rgba(255, 215, 0, 0.1) 0%, rgba(0, 0, 0, 0) 50%);
         }
-        
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -10%;
+            width: 120%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255, 215, 0, 0.1) 0%, rgba(0, 0, 0, 0) 70%);
+            z-index: -1;
+        }
+
         .hero-content {
-            max-width: 800px;
+            max-width: 1400px;
             margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            align-items: center;
+            gap: 4rem;
+        }
+
+        .hero-text {
+            flex: 1;
+        }
+
+        .hero-image {
+            flex: 1;
             position: relative;
-            z-index: 2;
+            perspective: 1000px;
         }
-        
+
+        .hero-image img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: var(--border-radius);
+            border: 5px solid var(--gold);
+            box-shadow: var(--box-shadow);
+            transform: rotateY(10deg);
+            transition: var(--transition);
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0) rotateY(10deg); }
+            50% { transform: translateY(-20px) rotateY(10deg); }
+            100% { transform: translateY(0) rotateY(10deg); }
+        }
+
+        .hero-image::after {
+            content: '';
+            position: absolute;
+            top: -20px;
+            left: -20px;
+            width: 100%;
+            height: 100%;
+            border: 2px solid var(--gold);
+            border-radius: var(--border-radius);
+            z-index: -1;
+            transition: var(--transition);
+        }
+
         .hero h1 {
-            font-size: 3.2rem;
+            font-size: 3.5rem;
             margin-bottom: 1.5rem;
-            line-height: 1.2;
-            font-weight: 800;
+            background: linear-gradient(to right, var(--gold), var(--gold-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
-        
+
+        .hero h2 {
+            font-size: 1.8rem;
+            color: var(--text-light);
+            margin-bottom: 2rem;
+            font-weight: 400;
+        }
+
         .hero p {
             font-size: 1.2rem;
-            color: var(--text-secondary);
-            margin-bottom: 2.5rem;
-            line-height: 1.8;
+            color: var(--text-light);
+            margin-bottom: 3rem;
+            max-width: 600px;
         }
-        
+
         .hero-buttons {
             display: flex;
-            gap: 1rem;
-            justify-content: center;
+            gap: 1.5rem;
         }
-        
-        .hero-stats {
+
+        .social-links {
             display: flex;
+            gap: 1.5rem;
+            margin-top: 3rem;
+        }
+
+        .social-link {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.05);
+            display: flex;
+            align-items: center;
             justify-content: center;
-            gap: 3rem;
-            margin-top: 4rem;
-            flex-wrap: wrap;
+            color: var(--gold);
+            font-size: 1.3rem;
+            transition: var(--transition);
         }
-        
-        .stat-item {
-            text-align: center;
+
+        .social-link:hover {
+            background: var(--gold);
+            color: var(--black);
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(255, 215, 0, 0.3);
         }
-        
-        .stat-number {
-            font-size: 2.5rem;
-            font-weight: 700;
-            color: var(--accent);
-            margin-bottom: 0.5rem;
+
+        /* **My Journey Section (Timeline + Stats) ** */
+        .journey {
+            padding: 6rem 0;
+            background: var(--darker-bg);
+            position: relative;
+            overflow: hidden;
         }
-        
-        .stat-label {
-            font-size: 0.9rem;
-            color: var(--text-secondary);
-            text-transform: uppercase;
-            letter-spacing: 1px;
+
+        .journey::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+            opacity: 0.03;
+            z-index: 0;
         }
-        
-        /* Features Section */
-        .features {
-            padding: 5rem 0;
-            background-color: var(--darker-bg);
-        }
-        
+
         .section-header {
             text-align: center;
             margin-bottom: 4rem;
         }
-        
+
         .section-header h2 {
-            font-size: 2.5rem;
+            font-size: 2.8rem;
             margin-bottom: 1rem;
-            font-weight: 700;
+            position: relative;
+            display: inline-block;
         }
-        
+
+        .section-header h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: var(--gold);
+            border-radius: 2px;
+        }
+
         .section-header p {
-            color: var(--text-secondary);
+            color: var(--text-light);
             max-width: 700px;
             margin: 0 auto;
+            font-size: 1.1rem;
         }
-        
-        .features-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
+
+        .timeline {
+            position: relative;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem 0;
         }
-        
-        .feature-card {
-            background-color: var(--card-bg);
-            border-radius: var(--border-radius);
-            padding: 2rem;
-            transition: var(--transition);
-            border: 1px solid rgba(255, 255, 255, 0.05);
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 2px;
+            height: 100%;
+            background: var(--gold);
         }
-        
-        .feature-card:hover {
-            transform: translateY(-10px);
-            box-shadow: var(--box-shadow);
-            border-color: var(--accent);
-        }
-        
-        .feature-icon {
-            width: 60px;
-            height: 60px;
-            background: rgba(108, 99, 255, 0.1);
-            border-radius: 12px;
+
+        .timeline-item {
             display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 1.5rem;
-            color: var(--accent);
-            font-size: 1.5rem;
+            justify-content: flex-end;
+            margin-bottom: 4rem;
+            position: relative;
         }
-        
-        .feature-card h3 {
-            font-size: 1.3rem;
+
+        .timeline-item:nth-child(even) {
+            justify-content: flex-start;
+        }
+
+        .timeline-content {
+            width: 45%;
+            padding: 2rem;
+            background: rgba(255, 215, 0, 0.05);
+            border-radius: var(--border-radius);
+            border: 1px solid rgba(255, 215, 0, 0.1);
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .timeline-content:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 215, 0, 0.1);
+            border-color: var(--gold);
+            box-shadow: var(--box-shadow);
+        }
+
+        .timeline-content::before {
+            content: '';
+            position: absolute;
+            top: 20px;
+            right: -10px;
+            width: 20px;
+            height: 20px;
+            background: var(--gold);
+            border-radius: 50%;
+            z-index: 1;
+        }
+
+        .timeline-item:nth-child(even) .timeline-content::before {
+            right: auto;
+            left: -10px;
+        }
+
+        .timeline-year {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: var(--gold);
+            margin-bottom: 0.5rem;
+        }
+
+        .timeline-title {
+            font-size: 1.5rem;
             margin-bottom: 1rem;
         }
-        
-        .feature-card p {
-            color: var(--text-secondary);
-            margin-bottom: 1.5rem;
+
+        .timeline-desc {
+            color: var(--text-light);
         }
-        
-        .feature-link {
-            color: var(--accent);
-            text-decoration: none;
-            font-weight: 600;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
+
+        .journey-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+
+        .stat-card {
+            background: rgba(255, 215, 0, 0.05);
+            border: 1px solid rgba(255, 215, 0, 0.1);
+            border-radius: var(--border-radius);
+            padding: 2rem;
+            text-align: center;
             transition: var(--transition);
         }
-        
-        .feature-link:hover {
-            color: var(--accent-light);
-            gap: 0.8rem;
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 215, 0, 0.1);
+            border-color: var(--gold);
+            box-shadow: var(--box-shadow);
         }
-        
-        /* Blog Section */
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(to right, var(--gold), var(--gold-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            font-size: 1rem;
+            color: var(--text-light);
+        }
+
+        /* **Blog Section (Featured Posts) ** */
         .blog {
-            padding: 5rem 0;
+            padding: 6rem 0;
+            background: var(--black);
+            position: relative;
         }
-        
+
+        .blog::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+            opacity: 0.03;
+            z-index: 0;
+        }
+
         .blog-header {
             display: flex;
             justify-content: space-between;
-            align-items: center;
+            align-items: flex-end;
             margin-bottom: 3rem;
         }
-        
+
         .blog-header h2 {
-            font-size: 2.5rem;
+            font-size: 2.8rem;
         }
-        
+
         .blog-header p {
-            color: var(--text-secondary);
+            color: var(--text-light);
             max-width: 500px;
+            text-align: right;
         }
-        
+
         .blog-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 2rem;
+            gap: 2.5rem;
         }
-        
+
         .blog-card {
-            background-color: var(--card-bg);
+            background: var(--darker-bg);
             border-radius: var(--border-radius);
             overflow: hidden;
             transition: var(--transition);
-            border: 1px solid rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 215, 0, 0.1);
+            position: relative;
         }
-        
+
         .blog-card:hover {
-            transform: translateY(-5px);
+            transform: translateY(-10px);
             box-shadow: var(--box-shadow);
+            border-color: var(--gold);
         }
-        
+
         .blog-image {
-            height: 200px;
+            height: 250px;
             overflow: hidden;
         }
-        
+
         .blog-image img {
             width: 100%;
             height: 100%;
             object-fit: cover;
             transition: var(--transition);
         }
-        
+
         .blog-card:hover .blog-image img {
-            transform: scale(1.05);
+            transform: scale(1.1);
         }
-        
+
         .blog-content {
-            padding: 1.5rem;
+            padding: 2rem;
         }
-        
+
         .blog-meta {
             display: flex;
-            gap: 1rem;
+            gap: 1.5rem;
             margin-bottom: 1rem;
             font-size: 0.9rem;
-            color: var(--text-secondary);
+            color: var(--text-light);
         }
-        
+
         .blog-meta span {
             display: flex;
             align-items: center;
             gap: 0.5rem;
         }
-        
+
         .blog-meta i {
-            color: var(--accent);
+            color: var(--gold);
         }
-        
+
         .blog-card h3 {
-            font-size: 1.3rem;
+            font-size: 1.5rem;
             margin-bottom: 1rem;
             line-height: 1.4;
         }
-        
+
         .blog-card p {
-            color: var(--text-secondary);
+            color: var(--text-light);
             margin-bottom: 1.5rem;
-            font-size: 0.95rem;
         }
-        
+
         .blog-tags {
             display: flex;
-            gap: 0.5rem;
+            gap: 0.8rem;
             flex-wrap: wrap;
             margin-bottom: 1.5rem;
         }
-        
+
         .blog-tag {
-            background: rgba(108, 99, 255, 0.1);
-            color: var(--accent);
-            padding: 0.3rem 0.8rem;
+            background: rgba(255, 215, 0, 0.1);
+            color: var(--gold);
+            padding: 0.4rem 1rem;
             border-radius: 50px;
-            font-size: 0.8rem;
+            font-size: 0.85rem;
             font-weight: 500;
+            transition: var(--transition);
         }
-        
+
+        .blog-tag:hover {
+            background: var(--gold);
+            color: var(--black);
+        }
+
         .read-more {
-            color: var(--accent);
+            color: var(--gold);
             text-decoration: none;
             font-weight: 600;
             display: flex;
@@ -431,322 +596,280 @@
             gap: 0.5rem;
             transition: var(--transition);
         }
-        
+
         .read-more:hover {
-            color: var(--accent-light);
             gap: 0.8rem;
         }
-        
-        /* GATE Preparation Section */
-        .gate-prep {
-            padding: 5rem 0;
-            background-color: var(--darker-bg);
+
+        /* **Featured Post (Highlighted) ** */
+        .featured-post {
+            grid-column: span 2;
         }
-        
-        .prep-tabs {
-            display: flex;
-            gap: 1rem;
-            margin-bottom: 2rem;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-            padding-bottom: 1rem;
+
+        .featured-post .blog-image {
+            height: 350px;
         }
-        
-        .tab-btn {
-            background: transparent;
-            border: none;
-            color: var(--text-secondary);
-            font-weight: 600;
-            padding: 0.7rem 1.5rem;
-            border-radius: var(--border-radius);
-            cursor: pointer;
-            transition: var(--transition);
+
+        .featured-post h3 {
+            font-size: 2rem;
+        }
+
+        /* **Testimonials (Interactive Cards) ** */
+        .testimonials {
+            padding: 6rem 0;
+            background: var(--darker-bg);
             position: relative;
         }
-        
-        .tab-btn.active {
-            color: var(--accent);
-            background: rgba(108, 99, 255, 0.1);
-        }
-        
-        .tab-btn::after {
+
+        .testimonials::before {
             content: '';
             position: absolute;
-            bottom: -1px;
+            top: 0;
             left: 0;
-            width: 0;
-            height: 2px;
-            background: var(--accent);
-            transition: var(--transition);
-        }
-        
-        .tab-btn.active::after {
             width: 100%;
+            height: 100%;
+            background: url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+            opacity: 0.03;
+            z-index: 0;
         }
-        
-        .tab-content {
-            display: none;
-        }
-        
-        .tab-content.active {
-            display: block;
-            animation: fadeIn 0.5s ease;
-        }
-        
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(10px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        
-        .phase-cards {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            margin-top: 2rem;
-        }
-        
-        .phase-card {
-            background-color: var(--card-bg);
-            border-radius: var(--border-radius);
-            padding: 2rem;
-            transition: var(--transition);
-            border: 1px solid rgba(255, 255, 255, 0.05);
-        }
-        
-        .phase-card:hover {
-            transform: translateY(-5px);
-            box-shadow: var(--box-shadow);
-            border-color: var(--accent);
-        }
-        
-        .phase-card h3 {
-            font-size: 1.3rem;
-            margin-bottom: 1.5rem;
-            display: flex;
-            align-items: center;
-            gap: 0.8rem;
-        }
-        
-        .phase-card h3 i {
-            color: var(--accent);
-        }
-        
-        .phase-card ul {
-            list-style: none;
-        }
-        
-        .phase-card li {
-            margin-bottom: 0.8rem;
-            padding-left: 1.5rem;
-            position: relative;
-            color: var(--text-secondary);
-        }
-        
-        .phase-card li::before {
-            content: '→';
-            position: absolute;
-            left: 0;
-            color: var(--accent);
-        }
-        
-        /* Testimonials */
-        .testimonials {
-            padding: 5rem 0;
-        }
-        
+
         .testimonial-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
+            gap: 2.5rem;
         }
-        
+
         .testimonial-card {
-            background-color: var(--card-bg);
+            background: var(--black);
             border-radius: var(--border-radius);
-            padding: 2rem;
-            border: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 2.5rem;
+            border: 1px solid rgba(255, 215, 0, 0.1);
+            transition: var(--transition);
         }
-        
+
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--box-shadow);
+            border-color: var(--gold);
+        }
+
         .testimonial-header {
             display: flex;
             align-items: center;
-            gap: 1rem;
+            gap: 1.5rem;
             margin-bottom: 1.5rem;
         }
-        
+
         .testimonial-avatar {
-            width: 60px;
-            height: 60px;
+            width: 70px;
+            height: 70px;
             border-radius: 50%;
             overflow: hidden;
+            border: 3px solid var(--gold);
         }
-        
+
         .testimonial-avatar img {
             width: 100%;
             height: 100%;
             object-fit: cover;
         }
-        
+
         .testimonial-info h4 {
-            font-size: 1.1rem;
-            margin-bottom: 0.3rem;
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
         }
-        
+
         .testimonial-info p {
-            color: var(--text-secondary);
-            font-size: 0.9rem;
+            color: var(--text-light);
+            font-size: 0.95rem;
         }
-        
+
         .testimonial-rating {
-            color: var(--warning);
-            margin-bottom: 1rem;
+            color: var(--gold);
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
         }
-        
-        .testimonial-content {
-            color: var(--text-secondary);
+
+        .testimonial-text {
+            color: var(--text-light);
             font-style: italic;
             line-height: 1.8;
+            position: relative;
+            padding-left: 1.5rem;
         }
-        
-        /* CTA Section */
+
+        .testimonial-text::before {
+            content: '"';
+            position: absolute;
+            left: 0;
+            top: -10px;
+            font-size: 3rem;
+            color: var(--gold);
+            opacity: 0.3;
+            font-family: serif;
+        }
+
+        /* **CTA Section (Gold Gradient) ** */
         .cta {
-            padding: 5rem 0;
-            background: linear-gradient(135deg, var(--accent), var(--accent-dark));
+            padding: 6rem 0;
+            background: linear-gradient(135deg, var(--gold), var(--gold-dark));
             text-align: center;
+            position: relative;
+            overflow: hidden;
         }
-        
+
+        .cta::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%);
+            z-index: 0;
+        }
+
+        .cta-content {
+            position: relative;
+            z-index: 1;
+        }
+
         .cta h2 {
-            font-size: 2.5rem;
+            font-size: 3rem;
             margin-bottom: 1.5rem;
+            color: var(--black);
         }
-        
+
         .cta p {
-            color: rgba(255, 255, 255, 0.8);
+            color: rgba(0, 0, 0, 0.8);
             max-width: 700px;
-            margin: 0 auto 2.5rem;
+            margin: 0 auto 3rem;
+            font-size: 1.2rem;
         }
-        
+
         .cta-buttons {
             display: flex;
-            gap: 1rem;
+            gap: 1.5rem;
             justify-content: center;
         }
-        
-        .btn-light {
-            background: white;
-            color: var(--accent-dark);
-            border: 2px solid white;
+
+        .btn-dark {
+            background: var(--black);
+            color: var(--gold);
+            border: 2px solid var(--black);
         }
-        
-        .btn-light:hover {
+
+        .btn-dark:hover {
             background: transparent;
-            color: white;
-            transform: translateY(-2px);
+            color: var(--black);
+            transform: translateY(-3px);
         }
-        
-        /* Footer */
+
+        /* **Footer (Gold Accents) ** */
         footer {
-            background-color: var(--darker-bg);
-            padding: 5rem 0 2rem;
-            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            background: var(--darker-bg);
+            padding: 6rem 0 3rem;
+            border-top: 1px solid rgba(255, 215, 0, 0.1);
         }
-        
+
         .footer-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 3rem;
             margin-bottom: 3rem;
         }
-        
+
         .footer-col h3 {
-            font-size: 1.3rem;
+            font-size: 1.5rem;
             margin-bottom: 1.5rem;
             position: relative;
             padding-bottom: 0.8rem;
         }
-        
+
         .footer-col h3::after {
             content: '';
             position: absolute;
             bottom: 0;
             left: 0;
             width: 50px;
-            height: 2px;
-            background: var(--accent);
+            height: 3px;
+            background: var(--gold);
         }
-        
+
         .footer-col p {
-            color: var(--text-secondary);
+            color: var(--text-light);
             margin-bottom: 1.5rem;
         }
-        
+
         .footer-links {
             list-style: none;
         }
-        
+
         .footer-links li {
-            margin-bottom: 0.8rem;
+            margin-bottom: 1rem;
         }
-        
+
         .footer-links a {
-            color: var(--text-secondary);
+            color: var(--text-light);
             text-decoration: none;
             transition: var(--transition);
             display: flex;
             align-items: center;
-            gap: 0.5rem;
+            gap: 0.8rem;
         }
-        
+
         .footer-links a:hover {
-            color: var(--accent);
+            color: var(--gold);
             transform: translateX(5px);
         }
-        
+
         .footer-links a i {
-            color: var(--accent);
-            font-size: 0.8rem;
+            color: var(--gold);
+            font-size: 0.9rem;
         }
-        
-        .social-links {
+
+        .footer-social {
             display: flex;
-            gap: 1rem;
+            gap: 1.5rem;
             margin-top: 1.5rem;
         }
-        
-        .social-link {
-            width: 40px;
-            height: 40px;
+
+        .footer-social-link {
+            width: 45px;
+            height: 45px;
             border-radius: 50%;
             background: rgba(255, 255, 255, 0.05);
             display: flex;
             align-items: center;
             justify-content: center;
-            color: var(--text-secondary);
+            color: var(--gold);
+            font-size: 1.2rem;
             transition: var(--transition);
         }
-        
-        .social-link:hover {
-            background: var(--accent);
-            color: white;
+
+        .footer-social-link:hover {
+            background: var(--gold);
+            color: var(--black);
             transform: translateY(-3px);
         }
-        
+
         .footer-bottom {
             text-align: center;
-            padding-top: 2rem;
-            border-top: 1px solid rgba(255, 255, 255, 0.05);
-            color: var(--text-secondary);
-            font-size: 0.9rem;
+            padding-top: 3rem;
+            border-top: 1px solid rgba(255, 215, 0, 0.1);
+            color: var(--text-light);
+            font-size: 0.95rem;
         }
-        
-        /* Back to Top */
+
+        /* **Back to Top (Gold Button) ** */
         .back-to-top {
             position: fixed;
             bottom: 30px;
             right: 30px;
-            width: 50px;
-            height: 50px;
-            background: var(--accent);
-            color: white;
+            width: 60px;
+            height: 60px;
+            background: var(--gold);
+            color: var(--black);
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -756,134 +879,150 @@
             visibility: hidden;
             transition: var(--transition);
             z-index: 99;
-            box-shadow: 0 5px 20px rgba(108, 99, 255, 0.3);
+            box-shadow: 0 8px 30px rgba(255, 215, 0, 0.3);
+            font-size: 1.3rem;
         }
-        
+
         .back-to-top.active {
             opacity: 1;
             visibility: visible;
         }
-        
+
         .back-to-top:hover {
-            background: var(--accent-dark);
-            transform: translateY(-3px);
+            transform: translateY(-5px) scale(1.1);
         }
-        
-        /* Responsive Styles */
+
+        /* **Responsive Design ** */
         @media (max-width: 1200px) {
             .hero h1 {
-                font-size: 2.8rem;
+                font-size: 3rem;
             }
-        }
-        
-        @media (max-width: 992px) {
-            .header-container {
-                flex-direction: column;
-                gap: 1.5rem;
-            }
-            
-            nav ul {
-                gap: 1.5rem;
-            }
-            
-            .hero h1 {
+            .section-header h2 {
                 font-size: 2.5rem;
             }
-            
-            .hero-buttons {
+        }
+
+        @media (max-width: 992px) {
+            .hero-content, .journey-content {
                 flex-direction: column;
-                align-items: center;
+                gap: 3rem;
             }
-            
-            .hero-stats {
-                gap: 2rem;
+            .hero-text, .journey-text {
+                text-align: center;
+            }
+            .hero p, .journey-text p {
+                margin: 0 auto 2rem;
+            }
+            .hero-buttons, .social-links {
+                justify-content: center;
+            }
+            .timeline::before {
+                left: 30px;
+            }
+            .timeline-item, .timeline-item:nth-child(even) {
+                justify-content: flex-start;
+                padding-left: 70px;
+            }
+            .timeline-content {
+                width: 100%;
+            }
+            .timeline-content::before {
+                left: -10px;
+                right: auto;
+            }
+            .featured-post {
+                grid-column: span 1;
+            }
+            .featured-post .blog-image {
+                height: 250px;
+            }
+            .featured-post h3 {
+                font-size: 1.5rem;
             }
         }
-        
+
         @media (max-width: 768px) {
             nav {
                 display: none;
                 width: 100%;
             }
-            
             nav.active {
                 display: block;
                 margin-top: 1.5rem;
             }
-            
             nav ul {
                 flex-direction: column;
                 gap: 1rem;
             }
-            
             .mobile-menu {
                 display: block;
             }
-            
+            .header-container {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .nav-cta {
+                margin-top: 1.5rem;
+                width: 100%;
+                justify-content: center;
+            }
             .hero h1 {
+                font-size: 2.5rem;
+            }
+            .hero h2 {
+                font-size: 1.5rem;
+            }
+            .section-header h2 {
                 font-size: 2.2rem;
             }
-            
-            .hero p {
-                font-size: 1.1rem;
-            }
-            
             .blog-header {
                 flex-direction: column;
+                align-items: flex-start;
                 gap: 1rem;
-                text-align: center;
             }
-            
-            .prep-tabs {
-                overflow-x: auto;
-                padding-bottom: 0.5rem;
-                scrollbar-width: none;
+            .blog-header p {
+                text-align: left;
             }
-            
-            .prep-tabs::-webkit-scrollbar {
-                display: none;
+            .cta h2 {
+                font-size: 2.5rem;
             }
-            
-            .tab-btn {
-                white-space: nowrap;
-            }
-            
             .cta-buttons {
                 flex-direction: column;
                 align-items: center;
             }
         }
-        
+
         @media (max-width: 576px) {
             .hero {
-                padding: 4rem 0;
+                padding: 6rem 0 4rem;
             }
-            
             .hero h1 {
-                font-size: 2rem;
+                font-size: 2.2rem;
             }
-            
+            .hero h2 {
+                font-size: 1.3rem;
+            }
+            .hero-buttons {
+                flex-direction: column;
+            }
             .section-header h2 {
                 font-size: 2rem;
             }
-            
+            .blog-grid {
+                grid-template-columns: 1fr;
+            }
             .cta h2 {
                 font-size: 2rem;
-            }
-            
-            .footer-grid {
-                grid-template-columns: 1fr;
             }
         }
     </style>
 </head>
 <body>
-    <!-- Header -->
+    <!-- **Header (Gold Navbar) ** -->
     <header>
-        <div class="container header-container">
+        <div class="header-container">
             <div class="logo">
                 <div class="logo-text">TestUrSelf</div>
-
             </div>
             
             <div class="mobile-menu">
@@ -893,160 +1032,160 @@
             <nav>
                 <ul>
                     <li><a href="#" class="active">Home</a></li>
-                    <li><a href="#">Courses</a></li>
-                    <li><a href="#">Test Series</a></li>
-                    <li><a href="#">Study Materials</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#journey">My Journey</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#">TestUrSelf</a></li>
                 </ul>
             </nav>
             
             <div class="nav-cta">
-                <a href="#" class="btn btn-outline">Login</a>
-                <a href="#" class="btn btn-primary">Register</a>
+                <a href="#" class="btn btn-outline">Contact</a>
+                <a href="#" class="btn btn-primary">Join Community</a>
             </div>
         </div>
     </header>
 
-    <!-- Hero Section -->
+    <!-- **Hero Section (Floating Profile Image) ** -->
     <section class="hero">
-        <div class="container hero-content">
-            <h1>Master GATE 2026 With India's Top Educators</h1>
-            <p>Join 50,000+ successful GATE aspirants who cracked the exam with our comprehensive preparation platform featuring live classes, test series, and personalized mentorship.</p>
-            
-            <div class="hero-buttons">
-                <a href="#" class="btn btn-primary">Explore Courses</a>
-                <a href="#" class="btn btn-outline">Free Study Materials</a>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Samarjeet Kumar Singh</h1>
+                <h2>Founder & CEO of TestUrSelf</h2>
+                <p>Education Entrepreneur | GATE Mentor | Transforming Engineering Education in India</p>
+                
+                <div class="hero-buttons">
+                    <a href="#blog" class="btn btn-primary">Read My Blog</a>
+                    <a href="#journey" class="btn btn-outline">My Journey</a>
+                </div>
+                
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                </div>
             </div>
             
-            <div class="hero-stats">
-                <div class="stat-item">
-                    <div class="stat-number">98%</div>
-                    <div class="stat-label">Success Rate</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number">150+</div>
-                    <div class="stat-label">Toppers</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number">10,000+</div>
-                    <div class="stat-label">Questions</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-number">24/7</div>
-                    <div class="stat-label">Doubt Support</div>
-                </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80" alt="Samarjeet Kumar Singh">
             </div>
         </div>
     </section>
 
-    <!-- Features Section -->
-    <section class="features">
+    <!-- **My Journey Section (Timeline) ** -->
+    <section class="journey" id="journey">
         <div class="container">
             <div class="section-header">
-                <h2>Why Choose TestUrSelf?</h2>
-                <p>We provide the most comprehensive GATE preparation platform with features designed to maximize your score and minimize your effort</p>
+                <h2>My Journey</h2>
+                <p>From GATE aspirant to creating India's most trusted GATE preparation platform</p>
             </div>
             
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-chalkboard-teacher"></i>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-year">2015</div>
+                        <h3 class="timeline-title">AIR 32 in GATE</h3>
+                        <p class="timeline-desc">Secured All India Rank 32 in GATE, paving the way for my M.Tech at IIT Delhi.</p>
                     </div>
-                    <h3>Expert Faculty</h3>
-                    <p>Learn from IIT/NIT alumni with 10+ years of GATE teaching experience and proven track records</p>
-                    <a href="#" class="feature-link">
-                        Meet Our Faculty
-                        <i class="fas fa-arrow-right"></i>
-                    </a>
                 </div>
                 
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-book-open"></i>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-year">2017</div>
+                        <h3 class="timeline-title">Teaching Passion</h3>
+                        <p class="timeline-desc">Started mentoring GATE aspirants, realizing the gaps in engineering education.</p>
                     </div>
-                    <h3>Comprehensive Study Material</h3>
-                    <p>Access 5000+ pages of concise notes, formula sheets, and concept maps for all subjects</p>
-                    <a href="#" class="feature-link">
-                        View Samples
-                        <i class="fas fa-arrow-right"></i>
-                    </a>
                 </div>
                 
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-tasks"></i>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-year">2018</div>
+                        <h3 class="timeline-title">Founded TestUrSelf</h3>
+                        <p class="timeline-desc">Launched TestUrSelf with a vision to democratize quality GATE preparation.</p>
                     </div>
-                    <h3>Smart Test Series</h3>
-                    <p>50+ full-length tests with AI-powered analysis to identify and improve weak areas</p>
-                    <a href="#" class="feature-link">
-                        Try Free Test
-                        <i class="fas fa-arrow-right"></i>
-                    </a>
                 </div>
                 
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-chart-line"></i>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <div class="timeline-year">2023</div>
+                        <h3 class="timeline-title">50,000+ Students</h3>
+                        <p class="timeline-desc">TestUrSelf became India's fastest-growing GATE platform with 150+ toppers.</p>
                     </div>
-                    <h3>Performance Analytics</h3>
-                    <p>Detailed insights into your preparation with comparative analysis and improvement suggestions</p>
-                    <a href="#" class="feature-link">
-                        See Demo
-                        <i class="fas fa-arrow-right"></i>
-                    </a>
                 </div>
-                
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-users"></i>
-                    </div>
-                    <h3>Doubt Support</h3>
-                    <p>24/7 access to subject experts through live chat, forums, and scheduled doubt sessions</p>
-                    <a href="#" class="feature-link">
-                        Ask a Question
-                        <i class="fas fa-arrow-right"></i>
-                    </a>
+            </div>
+            
+            <div class="journey-stats">
+                <div class="stat-card">
+                    <div class="stat-number">50K+</div>
+                    <div class="stat-label">Students</div>
                 </div>
-                
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-mobile-alt"></i>
-                    </div>
-                    <h3>Mobile Learning</h3>
-                    <p>Study on the go with our award-winning mobile app featuring offline access and more</p>
-                    <a href="#" class="feature-link">
-                        Download App
-                        <i class="fas fa-arrow-right"></i>
-                    </a>
+                <div class="stat-card">
+                    <div class="stat-number">150+</div>
+                    <div class="stat-label">GATE Toppers</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">10M+</div>
+                    <div class="stat-label">YouTube Views</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Blog Section -->
-    <section class="blog">
+    <!-- **Blog Section (Featured Posts) ** -->
+    <section class="blog" id="blog">
         <div class="container">
             <div class="blog-header">
-                <h2>Latest From Our Blog</h2>
-                <p>Get expert tips, strategies, and updates to boost your GATE preparation</p>
+                <div class="section-header">
+                    <h2>My Latest Articles</h2>
+                    <p>Sharing insights on GATE preparation, education technology, and career growth</p>
+                </div>
+                <a href="#" class="btn btn-outline">View All Articles</a>
             </div>
             
             <div class="blog-grid">
-                <article class="blog-card">
+                <article class="blog-card featured-post">
                     <div class="blog-image">
-                        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="GATE Study Plan">
+                        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Future of EdTech">
                     </div>
                     <div class="blog-content">
                         <div class="blog-meta">
-                            <span><i class="far fa-calendar"></i> April 10, 2025</span>
-                            <span><i class="far fa-eye"></i> 2.5K Views</span>
+                            <span><i class="far fa-calendar"></i> June 15, 2025</span>
+                            <span><i class="far fa-eye"></i> 8.7K Views</span>
                         </div>
-                        <h3>6-Month Intensive Study Plan for GATE 2026</h3>
-                        <p>Discover how to maximize your score with our scientifically designed study schedule that balances all subjects effectively.</p>
+                        <h3>The Future of EdTech in India</h3>
+                        <p>Exploring how platforms like TestUrSelf are revolutionizing engineering education with AI and personalized learning.</p>
                         <div class="blog-tags">
-                            <span class="blog-tag">Study Plan</span>
+                            <span class="blog-tag">EdTech</span>
+                            <span class="blog-tag">Innovation</span>
+                            <span class="blog-tag">Future</span>
+                        </div>
+                        <a href="#" class="read-more">
+                            Read More
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="GATE Strategy">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span><i class="far fa-calendar"></i> May 28, 2025</span>
+                            <span><i class="far fa-eye"></i> 12.3K Views</span>
+                        </div>
+                        <h3>My 6-Month GATE Preparation Strategy</h3>
+                        <p>The exact roadmap I followed to secure AIR 32 in GATE, including study schedules and key resources.</p>
+                        <div class="blog-tags">
+                            <span class="blog-tag">GATE</span>
                             <span class="blog-tag">Strategy</span>
+                            <span class="blog-tag">Success</span>
                         </div>
                         <a href="#" class="read-more">
                             Read More
@@ -1057,40 +1196,19 @@
                 
                 <article class="blog-card">
                     <div class="blog-image">
-                        <img src="https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="GATE Books">
+                        <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Entrepreneurship">
                     </div>
                     <div class="blog-content">
                         <div class="blog-meta">
-                            <span><i class="far fa-calendar"></i> April 5, 2025</span>
-                            <span><i class="far fa-eye"></i> 3.1K Views</span>
+                            <span><i class="far fa-calendar"></i> April 22, 2025</span>
+                            <span><i class="far fa-eye"></i> 5.4K Views</span>
                         </div>
-                        <h3>Best Books for GATE 2026 Preparation (Subject-wise)</h3>
-                        <p>Our expert panel recommends the most effective books for each subject to build strong fundamentals and problem-solving skills.</p>
+                        <h3>From Engineer to Entrepreneur</h3>
+                        <p>My journey of building TestUrSelf from a small coaching initiative to India's premier GATE platform.</p>
                         <div class="blog-tags">
-                            <span class="blog-tag">Resources</span>
-                            <span class="blog-tag">Books</span>
-                        </div>
-                        <a href="#" class="read-more">
-                            Read More
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </article>
-                
-                <article class="blog-card">
-                    <div class="blog-image">
-                        <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="PSU Recruitment">
-                    </div>
-                    <div class="blog-content">
-                        <div class="blog-meta">
-                            <span><i class="far fa-calendar"></i> March 28, 2025</span>
-                            <span><i class="far fa-eye"></i> 4.7K Views</span>
-                        </div>
-                        <h3>Complete Guide to PSU Recruitment Through GATE 2026</h3>
-                        <p>Everything you need to know about eligibility criteria, selection process, salary packages, and career growth in top PSUs.</p>
-                        <div class="blog-tags">
-                            <span class="blog-tag">PSU</span>
-                            <span class="blog-tag">Career</span>
+                            <span class="blog-tag">Entrepreneurship</span>
+                            <span class="blog-tag">Startup</span>
+                            <span class="blog-tag">Journey</span>
                         </div>
                         <a href="#" class="read-more">
                             Read More
@@ -1102,136 +1220,12 @@
         </div>
     </section>
 
-    <!-- GATE Preparation Section -->
-    <section class="gate-prep">
+    <!-- **Testimonials (Interactive Cards) ** -->
+    <section class="testimonials" id="testimonials">
         <div class="container">
             <div class="section-header">
-                <h2>GATE 2026 Preparation Roadmap</h2>
-                <p>Follow our proven 3-phase strategy used by toppers to systematically cover the syllabus and maximize your score</p>
-            </div>
-            
-            <div class="prep-tabs">
-                <button class="tab-btn active" data-tab="initial">Initial Phase</button>
-                <button class="tab-btn" data-tab="preparation">Preparation Phase</button>
-                <button class="tab-btn" data-tab="revision">Revision Phase</button>
-            </div>
-            
-            <div id="initial" class="tab-content active">
-                <p>Build strong foundations by understanding core concepts and creating an effective study plan. This phase is crucial for setting up your preparation structure.</p>
-                
-                <div class="phase-cards">
-                    <div class="phase-card">
-                        <h3><i class="fas fa-search"></i> Concept Clarity Check</h3>
-                        <ul>
-                            <li>Take diagnostic tests to assess current knowledge</li>
-                            <li>Identify strong and weak subject areas</li>
-                            <li>Analyze previous year papers for patterns</li>
-                            <li>Create personalized study plan</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="phase-card">
-                        <h3><i class="fas fa-book"></i> Syllabus Mastery</h3>
-                        <ul>
-                            <li>Download official GATE 2026 syllabus</li>
-                            <li>Mark topics based on weightage</li>
-                            <li>Understand technical and non-technical sections</li>
-                            <li>Create syllabus checklist for tracking</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="phase-card">
-                        <h3><i class="fas fa-book-open"></i> Resource Collection</h3>
-                        <ul>
-                            <li>Select standard reference books</li>
-                            <li>Gather quality coaching materials</li>
-                            <li>Create digital resource library</li>
-                            <li>Avoid frequent switching between materials</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            
-            <div id="preparation" class="tab-content">
-                <p>Systematically cover the entire syllabus with conceptual understanding and regular practice. This is the most intensive phase of your preparation.</p>
-                
-                <div class="phase-cards">
-                    <div class="phase-card">
-                        <h3><i class="fas fa-tasks"></i> Strategic Planning</h3>
-                        <ul>
-                            <li>Create weekly study schedules</li>
-                            <li>Allocate time for learning and practice</li>
-                            <li>Include buffer time for difficult topics</li>
-                            <li>Balance study with adequate breaks</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="phase-card">
-                        <h3><i class="fas fa-edit"></i> Effective Note Making</h3>
-                        <ul>
-                            <li>Develop shorthand for efficient notes</li>
-                            <li>Use diagrams and flowcharts</li>
-                            <li>Create formula sheets for quick revision</li>
-                            <li>Organize notes by topic and difficulty</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="phase-card">
-                        <h3><i class="fas fa-lightbulb"></i> Concept Mastery</h3>
-                        <ul>
-                            <li>Focus on understanding over memorizing</li>
-                            <li>Relate concepts to practical applications</li>
-                            <li>Solve varied problems on each concept</li>
-                            <li>Create concept maps for complex topics</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            
-            <div id="revision" class="tab-content">
-                <p>Consolidate your learning, identify gaps, and refine exam strategy. This phase transforms knowledge into high scores.</p>
-                
-                <div class="phase-cards">
-                    <div class="phase-card">
-                        <h3><i class="fas fa-sync-alt"></i> Intensive Revision</h3>
-                        <ul>
-                            <li>Revise using concise notes</li>
-                            <li>Focus on important formulas</li>
-                            <li>Re-attempt solved problems</li>
-                            <li>Take full-length mock tests weekly</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="phase-card">
-                        <h3><i class="fas fa-brain"></i> Stress Management</h3>
-                        <ul>
-                            <li>Maintain regular sleep schedule</li>
-                            <li>Practice meditation techniques</li>
-                            <li>Stay positive and motivated</li>
-                            <li>Believe in your preparation</li>
-                        </ul>
-                    </div>
-                    
-                    <div class="phase-card">
-                        <h3><i class="fas fa-clipboard-check"></i> Exam Strategy</h3>
-                        <ul>
-                            <li>Develop smart question selection</li>
-                            <li>Plan section-wise time allocation</li>
-                            <li>Prepare for different question types</li>
-                            <li>Learn when to skip difficult questions</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonials -->
-    <section class="testimonials">
-        <div class="container">
-            <div class="section-header">
-                <h2>What Our Students Say</h2>
-                <p>Success stories from GATE toppers who transformed their careers with TestUrSelf</p>
+                <h2>What People Say</h2>
+                <p>Testimonials from students, colleagues, and industry leaders</p>
             </div>
             
             <div class="testimonial-grid">
@@ -1252,19 +1246,19 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p class="testimonial-content">
-                        "TestUrSelf's test series was a game-changer for me. The detailed analysis helped me identify my weak areas and the faculty support was exceptional. I improved my score by 150 marks in the last 3 months!"
+                    <p class="testimonial-text">
+                        "Samarjeet sir's teaching methodology is revolutionary. His ability to break down complex concepts helped me crack GATE with AIR 47. TestUrSelf is a game-changer!"
                     </p>
                 </div>
                 
                 <div class="testimonial-card">
                     <div class="testimonial-header">
                         <div class="testimonial-avatar">
-                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Priya Patel">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Dr. Priya Patel">
                         </div>
                         <div class="testimonial-info">
-                            <h4>Priya Patel</h4>
-                            <p>GATE 2025 AIR 12</p>
+                            <h4>Dr. Priya Patel</h4>
+                            <p>Professor, IIT Delhi</p>
                         </div>
                     </div>
                     <div class="testimonial-rating">
@@ -1274,8 +1268,8 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <p class="testimonial-content">
-                        "The study material is so well-organized that it saved me hundreds of hours. The concept maps and formula sheets were my secret weapons. I couldn't have achieved AIR 12 without TestUrSelf."
+                    <p class="testimonial-text">
+                        "TestUrSelf is addressing critical gaps in engineering education with innovative solutions that combine pedagogy with technology."
                     </p>
                 </div>
                 
@@ -1286,7 +1280,7 @@
                         </div>
                         <div class="testimonial-info">
                             <h4>Amit Singh</h4>
-                            <p>GATE 2025 AIR 89</p>
+                            <p>ONGC Engineer</p>
                         </div>
                     </div>
                     <div class="testimonial-rating">
@@ -1296,40 +1290,39 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                     </div>
-                    <p class="testimonial-content">
-                        "As a working professional, the mobile app was a lifesaver. I could study during commute and the weekend doubt sessions helped clear all my concepts. Got selected in ONGC with AIR 89!"
+                    <p class="testimonial-text">
+                        "As a working professional, I never thought I could crack GATE. But TestUrSelf made it possible. Today I'm at ONGC, living my dream."
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- CTA Section -->
+    <!-- **CTA Section (Gold Gradient) ** -->
     <section class="cta">
-        <div class="container">
-            <h2>Ready to Start Your GATE 2026 Journey?</h2>
-            <p>Join India's most trusted GATE preparation platform and get access to expert guidance, comprehensive study materials, and personalized mentorship.</p>
+        <div class="container cta-content">
+            <h2>Join My GATE 2026 Masterclass</h2>
+            <p>Get exclusive access to my personal strategies, study techniques, and mentorship to achieve your GATE goals.</p>
             
             <div class="cta-buttons">
-                <a href="#" class="btn btn-light">Explore Courses</a>
-                <a href="#" class="btn btn-outline">Free Demo Class</a>
+                <a href="#" class="btn btn-dark">Enroll Now</a>
+                <a href="#" class="btn btn-outline">Learn More</a>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- **Footer (Gold Accents) ** -->
     <footer>
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-col">
-                    <h3>About TestUrSelf</h3>
-                    <p>India's premier online learning platform for GATE, ESE, and other engineering competitive exams with a mission to make quality education accessible.</p>
-                    <div class="social-links">
-                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    <h3>About Me</h3>
+                    <p>Education entrepreneur passionate about transforming engineering education in India.</p>
+                    <div class="footer-social">
+                        <a href="#" class="footer-social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="footer-social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="footer-social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="footer-social-link"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
                 
@@ -1337,41 +1330,37 @@
                     <h3>Quick Links</h3>
                     <ul class="footer-links">
                         <li><a href="#"><i class="fas fa-chevron-right"></i> Home</a></li>
-                        <li><a href="#"><i class="fas fa-chevron-right"></i> About Us</a></li>
-                        <li><a href="#"><i class="fas fa-chevron-right"></i> Courses</a></li>
-                        <li><a href="#"><i class="fas fa-chevron-right"></i> Test Series</a></li>
-                        <li><a href="#"><i class="fas fa-chevron-right"></i> Study Materials</a></li>
-                        <li><a href="#"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                        <li><a href="#journey"><i class="fas fa-chevron-right"></i> My Journey</a></li>
+                        <li><a href="#blog"><i class="fas fa-chevron-right"></i> Blog</a></li>
+                        <li><a href="#testimonials"><i class="fas fa-chevron-right"></i> Testimonials</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-col">
-                    <h3>Exams</h3>
+                    <h3>Popular Articles</h3>
                     <ul class="footer-links">
-                        <li><a href="#"><i class="fas fa-chevron-right"></i> GATE</a></li>
-                        <li><a href="#"><i class="fas fa-chevron-right"></i> UPSC ESE</a></li>
-                        <li><a href="#"><i class="fas fa-chevron-right"></i> BARC OCES</a></li>
-                        <li><a href="#"><i class="fas fa-chevron-right"></i> ISRO</a></li>
-                        <li><a href="#"><i class="fas fa-chevron-right"></i> DRDO</a></li>
-                        <li><a href="#"><i class="fas fa-chevron-right"></i> State Engineering Exams</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> GATE Strategy</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> EdTech Trends</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Career Paths</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Entrepreneurship</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-col">
-                    <h3>Contact Us</h3>
-                    <p><i class="fas fa-map-marker-alt"></i> 123 Education Street, Bangalore, India - 560001</p>
+                    <h3>Contact Me</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> TestUrSelf HQ, Bangalore</p>
                     <p><i class="fas fa-phone-alt"></i> +91 9876543210</p>
-                    <p><i class="fas fa-envelope"></i> contact@testurself.com</p>
+                    <p><i class="fas fa-envelope"></i> samarjeet@testurself.com</p>
                 </div>
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2025 TestUrSelf. All Rights Reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> | <a href="#">Refund Policy</a></p>
+                <p>&copy; 2025 Samarjeet Kumar Singh. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
 
-    <!-- Back to Top Button -->
+    <!-- **Back to Top (Gold Button) ** -->
     <div class="back-to-top">
         <i class="fas fa-arrow-up"></i>
     </div>
@@ -1385,20 +1374,25 @@
             nav.classList.toggle('active');
         });
 
-        // Tab Functionality
-        const tabBtns = document.querySelectorAll('.tab-btn');
-        const tabContents = document.querySelectorAll('.tab-content');
-        
-        tabBtns.forEach(btn => {
-            btn.addEventListener('click', () => {
-                // Remove active class from all buttons and contents
-                tabBtns.forEach(btn => btn.classList.remove('active'));
-                tabContents.forEach(content => content.classList.remove('active'));
+        // Smooth Scrolling for Anchor Links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
                 
-                // Add active class to clicked button and corresponding content
-                btn.classList.add('active');
-                const tabId = btn.getAttribute('data-tab');
-                document.getElementById(tabId).classList.add('active');
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    if (nav.classList.contains('active')) {
+                        nav.classList.remove('active');
+                    }
+                }
             });
         });
 
@@ -1420,26 +1414,9 @@
             });
         });
 
-        // Smooth Scrolling for Anchor Links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                
-                const targetId = this.getAttribute('href');
-                if (targetId === '#') return;
-                
-                const targetElement = document.querySelector(targetId);
-                if (targetElement) {
-                    targetElement.scrollIntoView({
-                        behavior: 'smooth'
-                    });
-                }
-            });
-        });
-
         // Animation on Scroll
         const animateOnScroll = () => {
-            const elements = document.querySelectorAll('.feature-card, .blog-card, .phase-card, .testimonial-card');
+            const elements = document.querySelectorAll('.hero-image, .timeline-content, .blog-card, .testimonial-card, .section-header');
             
             elements.forEach(element => {
                 const elementPosition = element.getBoundingClientRect().top;
@@ -1453,10 +1430,10 @@
         };
 
         // Set initial state for animated elements
-        document.querySelectorAll('.feature-card, .blog-card, .phase-card, .testimonial-card').forEach(element => {
+        document.querySelectorAll('.hero-image, .timeline-content, .blog-card, .testimonial-card, .section-header').forEach(element => {
             element.style.opacity = '0';
-            element.style.transform = 'translateY(20px)';
-            element.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            element.style.transform = 'translateY(30px)';
+            element.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
         });
 
         // Run animation check on load and scroll
