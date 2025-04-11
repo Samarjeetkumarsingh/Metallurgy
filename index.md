@@ -1153,7 +1153,7 @@
                     <span class="name-part">Singh</span>
                 </h1>
                 <h2>Founder & CEO of TestUrSelf</h2>
-                <p>Education Entrepreneur | GATE Mentor | Transforming Engineering Education in India</p>
+                <p>Educator | IISc Bengaluru | BOD, Kartavya | Materials Engineering</p>
                 
                 <div class="hero-buttons">
                     <a href="#blog" class="btn btn-primary">Read My Blog</a>
