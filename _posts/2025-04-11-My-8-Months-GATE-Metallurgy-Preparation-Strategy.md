@@ -19,12 +19,14 @@
             color: var(--light-gray);
             font-family: 'Georgia', serif;
             line-height: 1.8;
-            margin: 0;
+            margin: 0 auto;
+            max-width: 100%;
+            width:96%;
             padding: 0;
         }
         
         .container {
-            max-width: 1000px;
+            max-width: 100%;
             margin: 0 auto;
             padding: 30px;
         }
@@ -215,10 +217,9 @@
         
         .content-image {
             width: 100%;
-            max-width: 450px;
             border-radius: 5px;
             object-fit: cover;
-            height: 300px;
+            height: 500px;
             transition: transform 0.5s ease;
             box-shadow: 0 8px 16px rgba(0,0,0,0.4);
             border: 1px solid var(--dark-gold);
