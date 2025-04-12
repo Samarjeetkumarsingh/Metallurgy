@@ -48,7 +48,7 @@
        
         /* **Hero Section (Floating Profile Image) ** */
         .hero {
-            padding: 8rem 0;
+            padding: 2rem 0;
             position: relative;
             overflow: hidden;
             background: radial-gradient(circle at 20% 50%, rgba(255, 215, 0, 0.1) 0%, rgba(0, 0, 0, 0) 50%);
@@ -962,7 +962,6 @@
     </style>
 </head>
 <body>
-    <!-- **Hero Section (Floating Profile Image) ** -->
     <section class="hero">
         <div class="hero-content">
             <div class="hero-text">
