@@ -357,12 +357,6 @@
                         </ul>
                     </li>
                 </ul>
-                
-                <div class="image-container">
-                    <img src="https://images.unsplash.com/photo-1568667256549-094345857637?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
-                         alt="Solved question papers and notes" 
-                         class="content-image">
-                </div>
             </div>
             
             <div class="quote-box">
@@ -438,12 +432,6 @@
                     </li>
                     <li><span class="highlight">TestUrSelf's numerical modules</span> now provide this structured approach with instant feedback</li>
                 </ul>
-                
-                <div class="image-container">
-                    <img src="https://images.unsplash.com/photo-1551269901-5c5e14c25df7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
-                         alt="Mathematical calculations and formulas" 
-                         class="content-image">
-                </div>
             </div>
         </section>
         
@@ -513,12 +501,6 @@
                         </ul>
                     </li>
                 </ul>
-                
-                <div class="image-container">
-                    <img src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
-                         alt="Math calculations with corrections" 
-                         class="content-image">
-                </div>
             </div>
         </section>
         
