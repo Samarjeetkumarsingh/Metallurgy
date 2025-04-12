@@ -185,7 +185,7 @@
             background: var(--black);
         }
         
-        .btn {
+        .btn-1 {
             display: inline-block;
             background-color: var(--black);
             color: var(--gold);
@@ -200,7 +200,7 @@
             box-shadow: 0 4px 8px rgba(0,0,0,0.3);
         }
         
-        .btn:hover {
+        .btn-1:hover {
             background-color: transparent;
             color: var(--black);
         }
@@ -333,7 +333,7 @@
                     <li>Performance analytics highlighting exact weak areas</li>
                     <li>Personalized feedback from Metallurgy experts</li>
                 </ul>
-                <a href="#" class="btn">Join TestUrSelf Test Series</a>
+                <a href="#" class="btn-1">Join TestUrSelf Test Series</a>
             </div>
             
             <div class="strategy-point">
@@ -531,7 +531,7 @@
         <div class="testyourself-promo">
             <h2>Learn From My Mistakes</h2>
             <p>TestUrSelf's program incorporates all these hard-earned lessons to help you avoid common pitfalls while maximizing your score potential.</p>
-            <a href="#" class="btn">Get Personalized Guidance</a>
+            <a href="#" class="btn-1">Get Personalized Guidance</a>
         </div>
         
         <section class="content-section">
@@ -555,7 +555,7 @@
             <div class="testyourself-promo" style="margin: 40px -40px -40px; width:100%;">
                 <h2>Ready to Begin Your Journey to AIR-1?</h2>
                 <p>Join the platform that's produced Metallurgy toppers since 2018</p>
-                <a href="#" class="btn">Start With TestUrSelf Today</a>
+                <a href="#" class="btn-1">Start With TestUrSelf Today</a>
             </div>
         </section>
         
