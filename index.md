@@ -55,10 +55,22 @@
             color: var(--gold);
             background: transparent;
         }
+       
 
         .btn-outline:hover {
             background: var(--gold);
             color: var(--black);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 20px rgba(255, 215, 0, 0.3);
+        }
+         .btn-outline-black {
+    border: 2px solid #000000;
+    color: #000000;
+    background: transparent;
+}
+ .btn-outline-black:hover {
+            background: #000000;
+            color:  var(--gold);
             transform: translateY(-3px);
             box-shadow: 0 5px 20px rgba(255, 215, 0, 0.3);
         }
@@ -1361,7 +1373,7 @@
             
             <div class="cta-buttons">
                 <a href="#" class="btn btn-dark">Enroll Now</a>
-                <a href="#" class="btn btn-outline">Learn More</a>
+                <a href="#" class="btn btn-outline-black">Learn More</a>
             </div>
         </div>
     </section>
