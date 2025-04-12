@@ -279,7 +279,7 @@
             <h1>My 8-Months GATE Metallurgy Preparation Strategy</h1>
             <div class="air-badge">Achieved AIR-7 in GATE 2016</div>
             <p>The comprehensive approach that helped me secure All India Rank 7 in GATE Metallurgical Engineering while in final year</p>
-        </header>
+        </div>
         
         <section class="content-section">
             <h2>Part I: My Preparation Strategy</h2>
