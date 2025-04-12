@@ -133,17 +133,17 @@
             top: -3px;
         }
         
-        ul {
+       .container-section ul {
             padding-left: 30px;
         }
         
-        li {
+       container-section ul li {
             margin-bottom: 15px;
             position: relative;
             padding-left: 10px;
         }
         
-        li::before {
+      container-section ul li::before {
             content: "■";
             color: var(--gold);
             font-size: 0.8rem;
@@ -274,7 +274,7 @@
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="container container-section">
         <div class="header1">
             <h1>My 8-Months GATE Metallurgy Preparation Strategy</h1>
             <div class="air-badge">Achieved AIR-7 in GATE 2016</div>
