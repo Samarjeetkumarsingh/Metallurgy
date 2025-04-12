@@ -17,8 +17,6 @@
         body {
             background-color: var(--black);
             color: var(--light-gray);
-            font-family: 'Georgia', serif;
-            line-height: 1.8;
             margin: 0 auto;
             max-width: 100%;
             width:96%;
