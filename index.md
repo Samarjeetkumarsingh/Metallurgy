@@ -1303,7 +1303,7 @@
                         </div>
                         <div class="testimonial-info">
                             <h4>Jaya Gupta</h4>
-                            <p>GATE 2025 AIR 1</p>
+                            <p>GATE 2020 AIR 1</p>
                         </div>
                     </div>
                     <div class="testimonial-rating">
