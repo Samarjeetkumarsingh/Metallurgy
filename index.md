@@ -56,6 +56,15 @@
             transform: translateY(-3px);
             box-shadow: 0 5px 20px rgba(255, 215, 0, 0.3);
         }
+          .btn-primary-1 {
+            background: linear-gradient(to right, var(--gold), var(--gold-dark));
+            color: var(--black);
+        }
+
+        .btn-primary-1:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(255, 215, 0, 0.4);
+        }
 
        
         /* **Hero Section (Floating Profile Image) ** */
