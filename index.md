@@ -75,7 +75,7 @@
        
         /* **Hero Section (Floating Profile Image) ** */
         .hero {
-            padding: 2rem 0;
+            padding: 6rem 0;
             position: relative;
             overflow: hidden;
             background: radial-gradient(circle at 20% 50%, rgba(255, 215, 0, 0.1) 0%, rgba(0, 0, 0, 0) 50%);
