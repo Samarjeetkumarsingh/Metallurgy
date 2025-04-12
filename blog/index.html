@@ -1,7 +1,14 @@
 ---
 layout: default
 ---
-
+<style>
+      .post-headline{
+            display:block
+        }
+          .post-description{
+            display:block
+        }
+</style>
 <div class="article-list">
   {% for post in paginator.posts %}
     <h2><a href="{{post.url | prepend: site.baseurl}}">{{post.title}}</a></h2>
