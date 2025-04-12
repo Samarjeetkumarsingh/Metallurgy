@@ -183,7 +183,7 @@
             border-bottom: 2px solid rgba(0,0,0,0.2);
         }
         
-        .testyourself-promo h2::after {
+        . h2::after {
             background: var(--black);
         }
         
@@ -554,7 +554,7 @@
                 "GATE rewards systematic preparation more than raw intelligence. My AIR-7 was the result of 8 months of structured effort, not innate brilliance."
             </div>
             
-            <div class="testyourself-promo" style="margin: 40px -40px -40px; width: calc(100% + 80px);">
+            <div class="testyourself-promo" style="margin: 40px -40px -40px; width:100%;">
                 <h2>Ready to Begin Your Journey to AIR-1?</h2>
                 <p>Join the platform that's produced Metallurgy toppers since 2018</p>
                 <a href="#" class="btn">Start With TestUrSelf Today</a>
