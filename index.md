@@ -62,12 +62,12 @@
             transform: translateY(-3px);
             box-shadow: 0 5px 20px rgba(255, 215, 0, 0.3);
         }
-          .btn-primary-1 {
+          .btn-primary{
             background: linear-gradient(to right, var(--gold), var(--gold-dark));
             color: var(--black);
         }
 
-        .btn-primary-1:hover {
+        .btn-primary:hover {
             transform: translateY(-3px);
             box-shadow: 0 8px 25px rgba(255, 215, 0, 0.4);
         }
@@ -237,6 +237,7 @@
         .section-header {
             text-align: center;
             margin-bottom: 4rem;
+            width:100%
         }
 
         .section-header h2 {
@@ -264,6 +265,10 @@
             max-width: 700px;
             margin: 0 auto;
             font-size: 1.1rem;
+        }
+        .article-btn{
+        position:absolute;
+        right:0;
         }
 
         .timeline {
@@ -416,7 +421,7 @@
         .blog-header p {
             color: var(--text-light);
             max-width: 500px;
-            text-align: right;
+            text-align: center;
         }
 
         /* Blog Tabs */
@@ -947,6 +952,7 @@
                 flex-direction: column;
                 align-items: flex-start;
                 gap: 1rem;
+                position:relative;
             }
             .blog-header p {
                 text-align: left;
@@ -1090,7 +1096,7 @@
                     <h2>My Latest Articles</h2>
                     <p>Sharing insights on GATE preparation, education technology, and career growth</p>
                 </div>
-                <a href="#" class="btn btn-outline">View All Articles</a>
+              
             </div>
             
             <!-- Blog Tabs -->
