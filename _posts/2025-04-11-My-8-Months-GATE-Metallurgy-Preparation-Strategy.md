@@ -31,7 +31,7 @@
             padding: 30px;
         }
         
-        header {
+        .header1 {
             text-align: center;
             padding: 50px 0;
             margin-bottom: 50px;
@@ -39,7 +39,7 @@
             position: relative;
         }
         
-        header::after {
+        .header1::after {
             content: "";
             position: absolute;
             bottom: -1px;
@@ -277,7 +277,7 @@
 </head>
 <body>
     <div class="container">
-        <header>
+        <div class="header1">
             <h1>My 8-Months GATE Metallurgy Preparation Strategy</h1>
             <div class="air-badge">Achieved AIR-7 in GATE 2016</div>
             <p>The comprehensive approach that helped me secure All India Rank 7 in GATE Metallurgical Engineering while in final year</p>
