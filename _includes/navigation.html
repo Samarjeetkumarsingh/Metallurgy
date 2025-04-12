@@ -145,6 +145,11 @@
             cursor: pointer;
             color: var(--gold);
         }
+        .hide-on-index,
+.show-on-index {
+    display: none;
+}
+
 
       
        
@@ -196,8 +201,8 @@
                  
                      <li> <a href="{{site.baseurl}}/">Home</a></li>
         <li> <a href="{{site.baseurl}}/projects/">Projects</a></li>
-        <li> <a href="{{site.baseurl}}/blog/">Blog</a></li>
-         <li><a href="#blog">Blogs</a></li>
+        <li class="hide-on-index"><a href="{{site.baseurl}}/blog/">Blog</a></li>
+        <li class="index-only"><a href="#blog">Blogs</a></li>
                 </ul>
             </nav>
             
@@ -220,6 +225,14 @@
         mobileMenuBtn.addEventListener('click', () => {
             nav.classList.toggle('active');
         });
+          // Detect if current page is index.html or root
+    const isIndex = window.location.pathname === '/' || window.location.pathname.endsWith('index.html');
+
+    if (isIndex) {
+        document.querySelectorAll('.show-on-index').forEach(el => el.style.display = 'list-item');
+    } else {
+        document.querySelectorAll('.hide-on-index').forEach(el => el.style.display = 'list-item');
+    }
 
         // Smooth Scrolling for Anchor Links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
