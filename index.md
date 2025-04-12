@@ -1302,7 +1302,7 @@
                             <img src="https://images-website-testurself.s3.us-east-1.amazonaws.com/AIR-1-2020.png" alt="Jaya Gupta">
                         </div>
                         <div class="testimonial-info">
-                            <h4>Rahul Sharma</h4>
+                            <h4>Jaya Gupta</h4>
                             <p>GATE 2025 AIR 1</p>
                         </div>
                     </div>
