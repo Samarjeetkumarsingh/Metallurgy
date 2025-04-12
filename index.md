@@ -1142,7 +1142,7 @@
                             <span class="blog-tag">Future</span>
                             <span class="blog-tag">AI</span>
                         </div>
-                        <a href="https://blog.gometallurgy.in/blog/2025/My-8-Months-GATE-Metallurgy-Preparation-Strategy/" class="read-more">
+                        <a target="blank" href="https://blog.gometallurgy.in/blog/2025/My-8-Months-GATE-Metallurgy-Preparation-Strategy/" class="read-more">
                             Read More
                             <i class="fas fa-arrow-right"></i>
                         </a>
