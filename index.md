@@ -1135,7 +1135,7 @@
                             <span><i class="far fa-comment"></i> 42 Comments</span>
                         </div>
                         <h3>My 8 Months Gate Metallurgy Preparation Strategy</h3>
-                        <p>Hey there! I just wanted to share my journey to cracking GATE Metallurgy with AIR-7. It wasn’t easy, but with 8 months of intense preparation, strong concepts, PYQs, and regular mocks, I finally achieved my goal. Consistency, revision, and a smart strategy were key to my success. I followed standard books, analyzed my mistakes thoroughly, and stayed disciplined throughout the entire process. Good luck on your own GATE Metallurgy journey.</p>
+                        <p>Hey there! I just wanted to share my journey to cracking GATE Metallurgy with AIR-7. It wasn’t easy, but with 8 months of intense preparation, strong concepts, PYQs, and regular mocks, I finally achieved my goal. Consistency, revision, and a smart strategy were key to my success. Good luck on your own GATE Metallurgy journey.</p>
                         <div class="blog-tags">
                             <span class="blog-tag">GATE</span>
                             <span class="blog-tag">Metallurgy</span>
