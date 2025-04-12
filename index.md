@@ -45,137 +45,7 @@
             font-weight: 700;
         }
 
-        header {
-            background: rgba(0, 0, 0, 0.9);
-            backdrop-filter: blur(10px);
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-            border-bottom: 1px solid rgba(255, 215, 0, 0.2);
-            padding: 25px 0;
-            transition: all 0.3s ease;
-        }
-
-        .header-container {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 0 2rem;
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            box-sizing: border-box;
-        }
-        
-
-        .logo {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .logo-icon {
-            width: 45px;
-            height: 45px;
-            background: linear-gradient(135deg, var(--gold), var(--gold-dark));
-            border-radius: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--black);
-            font-weight: 700;
-            font-size: 1.3rem;
-            box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
-        }
-
-        .logo-text {
-            font-size: 1.8rem;
-            font-weight: 700;
-            background: linear-gradient(to right, var(--gold), var(--gold-light));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        nav ul {
-            display: flex;
-            gap: 2rem;
-            list-style: none;
-        }
-
-        nav ul li a {
-            color: var(--text-light);
-            text-decoration: none;
-            font-weight: 600;
-            transition: var(--transition);
-            position: relative;
-            padding: 0.5rem 0;
-        }
-
-        nav ul li a:hover {
-            color: var(--gold);
-        }
-
-        nav ul li a::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 0;
-            height: 2px;
-            background: var(--gold);
-            transition: var(--transition);
-        }
-
-        nav ul li a:hover::after {
-            width: 100%;
-        }
-
-        .nav-cta {
-            display: flex;
-            gap: 1rem;
-        }
-
-        .btn {
-            padding: 0.8rem 1.8rem;
-            border-radius: var(--border-radius);
-            font-weight: 600;
-            cursor: pointer;
-            transition: var(--transition);
-            text-decoration: none;
-            display: inline-block;
-            border: none;
-        }
-
-        .btn-outline {
-            border: 2px solid black;
-            color: black;
-            background: transparent;
-        }
-
-        .btn-outline:hover {
-            background: var(--gold);
-            color: var(--black);
-            transform: translateY(-3px);
-            box-shadow: 0 5px 20px rgba(255, 215, 0, 0.3);
-        }
-
-        .btn-primary {
-            background: linear-gradient(to right, var(--gold), var(--gold-dark));
-            color: var(--black);
-        }
-
-        .btn-primary:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 25px rgba(255, 215, 0, 0.4);
-        }
-
-        .mobile-menu {
-            display: none;
-            font-size: 1.8rem;
-            cursor: pointer;
-            color: var(--gold);
-        }
-
+       
         /* **Hero Section (Floating Profile Image) ** */
         .hero {
             padding: 8rem 0;
@@ -1036,30 +906,7 @@
         }
 
         @media (max-width: 768px) {
-            nav {
-                display: none;
-                width: 100%;
-            }
-            nav.active {
-                display: block;
-                margin-top: 1.5rem;
-            }
-            nav ul {
-                flex-direction: column;
-                gap: 1rem;
-            }
-            .mobile-menu {
-                display: block;
-            }
-            .header-container {
-                flex-direction: column;
-                align-items: flex-start;
-            }
-            .nav-cta {
-                margin-top: 1.5rem;
-                width: 100%;
-                justify-content: center;
-            }
+          
             .hero h1 {
                 font-size: 2.5rem;
             }
@@ -1115,34 +962,6 @@
     </style>
 </head>
 <body>
-    <!-- **Header (Gold Navbar) ** -->
-    <header>
-        <div class="header-container">
-            <div class="logo">
-                <div class="logo-icon">B</div>
-                <div class="logo-text">Blog Website</div>
-            </div>
-            
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#journey">Journey</a></li>
-                    <li><a href="#blog">Blog</a></li>
-                    <li><a href="#testimonials">Testimonials</a></li>
-                </ul>
-            </nav>
-            
-            <div class="nav-cta">
-                <a href="#" class="btn btn-outline">Contact</a>
-                <a href="#" class="btn btn-primary">Join Masterclass</a>
-            </div>
-            
-            <div class="mobile-menu">
-                <i class="fas fa-bars"></i>
-            </div>
-        </div>
-    </header>
-
     <!-- **Hero Section (Floating Profile Image) ** -->
     <section class="hero">
         <div class="hero-content">
