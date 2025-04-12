@@ -44,6 +44,18 @@
             font-family: 'Playfair Display', serif;
             font-weight: 700;
         }
+          .btn-outline {
+            border: 2px solid var(--gold);
+            color: var(--gold);
+            background: transparent;
+        }
+
+        .btn-outline:hover {
+            background: var(--gold);
+            color: var(--black);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 20px rgba(255, 215, 0, 0.3);
+        }
 
        
         /* **Hero Section (Floating Profile Image) ** */
