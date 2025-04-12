@@ -137,13 +137,13 @@
             padding-left: 30px;
         }
         
-       container-section ul li {
+       .container-section ul li {
             margin-bottom: 15px;
             position: relative;
             padding-left: 10px;
         }
         
-      container-section ul li::before {
+      .container-section ul li::before {
             content: "■";
             color: var(--gold);
             font-size: 0.8rem;
