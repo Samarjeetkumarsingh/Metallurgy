@@ -39,6 +39,12 @@
             max-width:100%;
             width:96%;
         }
+         .post-headline{
+            display:none
+        }
+          .post-description{
+            display:none
+        }
 
         h1, h2, h3, h4 {
             font-family: 'Playfair Display', serif;
