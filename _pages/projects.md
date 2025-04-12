@@ -4,7 +4,14 @@ layout: default
 permalink: /projects/
 published: true
 ---
-
+<style>
+	    .post-headline{
+            display:block
+        }
+          .post-description{
+            display:block
+        }
+</style>
 
 <div class="ProjectContainer">
 
