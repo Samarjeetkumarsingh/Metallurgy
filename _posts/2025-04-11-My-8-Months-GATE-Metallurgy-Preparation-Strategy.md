@@ -293,12 +293,6 @@
                     <li>Ensured complete coverage of <span class="highlight">both conceptual understanding and numerical problem-solving</span> for each topic</li>
                     <li>Conducted weekly self-audits to verify syllabus coverage and identify any gaps in understanding</li>
                 </ul>
-                
-                <div class="image-container">
-                    <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" 
-                         alt="Metallurgy textbooks and study materials" 
-                         class="content-image">
-                </div>
             </div>
             
             <div class="strategy-point">
