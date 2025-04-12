@@ -1130,7 +1130,7 @@
                     </div>
                     <div class="blog-content">
                         <div class="blog-meta">
-                            <span><i class="far fa-calendar"></i> June 15, 2025</span>
+                            <span><i class="far fa-calendar"></i> March 15, 2025</span>
                             <span><i class="far fa-eye"></i> 8.7K Views</span>
                             <span><i class="far fa-comment"></i> 42 Comments</span>
                         </div>
