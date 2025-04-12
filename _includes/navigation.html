@@ -1,5 +1,53 @@
-<div class="links scroll">
-        <a href="{{site.baseurl}}/">Home</a>
-        <a href="{{site.baseurl}}/projects/">Projects</a>
-        <a href="{{site.baseurl}}/blog/">Blog</a>
-</div>
+
+s
+                margin-top: 1.5rem;
+                width: 100%;
+                justify-content: center;
+            }
+            
+        }
+​
+      
+    </style>
+</head>
+<body>
+    <!-- **Header (Gold Navbar) ** -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <div class="logo-icon">B</div>
+                <div class="logo-text">Blog Website</div>
+            </div>
+            
+            <nav>
+                <ul>
+                 
+                     <li> <a href="{{site.baseurl}}/">Home</a></li>
+        <li> <a href="{{site.baseurl}}/projects/">Projects</a></li>
+        <li> <a href="{{site.baseurl}}/blog/">Blog</a></li>
+         <li><a href="#blog">Blogs</a></li>
+                </ul>
+            </nav>
+            
+            <div class="nav-cta">
+                <a href="#" class="btn btn-outline">Contact</a>
+                <a href="#" class="btn btn-primary">Join Masterclass</a>
+            </div>
+            
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+​
+    \
+​
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.querySelector('.mobile-menu');
+        const nav = document.querySelector('nav');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        });
+​
