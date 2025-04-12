@@ -1299,11 +1299,11 @@
                 <div class="testimonial-card">
                     <div class="testimonial-header">
                         <div class="testimonial-avatar">
-                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Rahul Sharma">
+                            <img src="https://images-website-testurself.s3.us-east-1.amazonaws.com/AIR-1-2020.png" alt="Jaya Gupta">
                         </div>
                         <div class="testimonial-info">
                             <h4>Rahul Sharma</h4>
-                            <p>GATE 2025 AIR 47</p>
+                            <p>GATE 2025 AIR 1</p>
                         </div>
                     </div>
                     <div class="testimonial-rating">
@@ -1314,7 +1314,7 @@
                         <i class="fas fa-star"></i>
                     </div>
                     <p class="testimonial-text">
-                        "Samarjeet sir's teaching methodology is revolutionary. His ability to break down complex concepts helped me crack GATE with AIR 47. TestUrSelf is a game-changer!"
+                        "The test series of TestUrSelf was extremely helpful in my GATE Metallurgy preparation. It helped me analyze my weak and strong areas, and the platform closely simulated the actual GATE exam environment. The wide range of questions—from easy to tough—strengthened my problem-solving ability and built the mental resilience needed for any type of paper. A special thanks to Samarjeet Sir for his constant guidance and for designing such a well-structured and doubt-clearing test series."
                     </p>
                 </div>
                 
