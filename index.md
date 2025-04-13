@@ -1322,11 +1322,11 @@
                 <div class="testimonial-card">
                     <div class="testimonial-header">
                         <div class="testimonial-avatar">
-                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Dr. Priya Patel">
+                            <img src="https://images-website-testurself.s3.us-east-1.amazonaws.com/1587805066557.jpeg" alt="Dr. Priya Patel">
                         </div>
                         <div class="testimonial-info">
-                            <h4>Dr. Priya Patel</h4>
-                            <p>Professor, IIT Delhi</p>
+                            <h4>Dr. Chinmay Dahale</h4>
+                            <p>Professor, IISc Banglore, TCS research</p>
                         </div>
                     </div>
                     <div class="testimonial-rating">
@@ -1337,18 +1337,18 @@
                         <i class="fas fa-star"></i>
                     </div>
                     <p class="testimonial-text">
-                        "TestUrSelf is addressing critical gaps in engineering education with innovative solutions that combine pedagogy with technology."
+                        "TestUrSelf is a fantastic and well growing organization. Samarjeet sir personally helped me a lot in order to solve my doubts. Many of the questions from test series was repeated in the GATE exam. So, I recommend TestUrSelf online test series to every gate aspirant."
                     </p>
                 </div>
                 
                 <div class="testimonial-card">
                     <div class="testimonial-header">
                         <div class="testimonial-avatar">
-                            <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Amit Singh">
+                            <img src="https://images-website-testurself.s3.us-east-1.amazonaws.com/B71CD8BB-22E7-4555-9AB7-CF185DA4272C.jpeg" alt="Amit Singh">
                         </div>
                         <div class="testimonial-info">
-                            <h4>Amit Singh</h4>
-                            <p>ONGC Engineer</p>
+                            <h4>Ravi kumar Singh</h4>
+                            <p>IISc, Program Lead at ExxonMobil</p>
                         </div>
                     </div>
                     <div class="testimonial-rating">
@@ -1359,7 +1359,7 @@
                         <i class="fas fa-star-half-alt"></i>
                     </div>
                     <p class="testimonial-text">
-                        "As a working professional, I never thought I could crack GATE. But TestUrSelf made it possible. Today I'm at ONGC, living my dream."
+                        "TestUrSelf is one of the best platforms to gear up for GATE Metallurgy. The test series is structured so well that with each test, your confidence naturally builds up. It also helps you master effective time management during exams. I’ve been closely associated with this organization for the past two years and have witnessed its exceptional growth firsthand. I strongly recommend undergraduate students to start their GATE preparation early and take full advantage of what TestUrSelf has to offer."
                     </p>
                 </div>
             </div>
