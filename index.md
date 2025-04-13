@@ -1356,7 +1356,7 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
+                        <i class="fas fa-star"></i>
                     </div>
                     <p class="testimonial-text">
                         "TestUrSelf is one of the best platforms to gear up for GATE Metallurgy. The test series is structured so well that with each test, your confidence naturally builds up. It also helps you master effective time management during exams. I’ve been closely associated with this organization for the past two years and have witnessed its exceptional growth firsthand. I strongly recommend undergraduate students to start their GATE preparation early and take full advantage of what TestUrSelf has to offer."
