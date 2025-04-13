@@ -1326,7 +1326,7 @@
                         </div>
                         <div class="testimonial-info">
                             <h4>Dr. Chinmay Dahale</h4>
-                            <p>Professor, IISc Banglore, TCS research</p>
+                            <p>IISc Banglore, TCS research</p>
                         </div>
                     </div>
                     <div class="testimonial-rating">
@@ -1337,7 +1337,7 @@
                         <i class="fas fa-star"></i>
                     </div>
                     <p class="testimonial-text">
-                        "TestUrSelf is a fantastic and well growing organization. Samarjeet sir personally helped me a lot in order to solve my doubts. Many of the questions from test series was repeated in the GATE exam. So, I recommend TestUrSelf online test series to every gate aspirant."
+                        "TestUrSelf is one of the best platforms for GATE Metallurgy preparation. It offers a structured approach that helps aspirants build confidence, improve accuracy, and strengthen concepts over time. Samarjeet Sir's personal mentorship and prompt doubt-solving support played a crucial role in my preparation journey. Many of the concepts and patterns I encountered during preparation closely matched what appeared in the actual GATE exam. I highly recommend TestUrSelf to all GATE aspirants who are looking for expert guidance, quality content, and a results-driven preparation strategy."
                     </p>
                 </div>
                 
