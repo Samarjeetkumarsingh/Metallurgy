@@ -32,7 +32,8 @@
             background-image: 
                 radial-gradient(circle at 10% 20%, rgba(29, 209, 161, 0.1) 0%, transparent 20%),
                 radial-gradient(circle at 90% 80%, rgba(255, 107, 107, 0.1) 0%, transparent 20%);
-            overflow-x: hidden;
+           width: 96%;
+max-width: 100%;
         }
         
         .container {
