@@ -778,22 +778,22 @@ max-width: 100%;
             <div class="achievements">
                 <div class="achievement-card">
                     <i class="fas fa-medal"></i>
-                    <h3>5+</h3>
+                    <h3>8+</h3>
                     <p>Years of Excellence</p>
                 </div>
                 <div class="achievement-card">
                     <i class="fas fa-user-graduate"></i>
-                    <h3>50+</h3>
+                    <h3>460+</h3>
                     <p>Top 100 Rankers</p>
                 </div>
                 <div class="achievement-card">
                     <i class="fas fa-award"></i>
-                    <h3>3</h3>
+                    <h3>8+</h3>
                     <p>AIR-1 Achievers</p>
                 </div>
                 <div class="achievement-card">
                     <i class="fas fa-chalkboard-teacher"></i>
-                    <h3>10,000+</h3>
+                    <h3>5,000+</h3>
                     <p>Students Mentored</p>
                 </div>
             </div>
@@ -1179,7 +1179,7 @@ max-width: 100%;
                         </div>
                         <h2 class="platform-title">The Premier GATE MT Preparation Platform</h2>
                     </div>
-                    <img src="https://testurself.com/wp-content/uploads/2023/05/rankers-badge.png" alt="Top Rankers Badge" width="120">
+                    <img src="https://images-website-testurself.s3.us-east-1.amazonaws.com/Screenshot+2024-08-14+at+3.56+Background+Removed.25%E2%80%AFPM.png" alt="Top Rankers Badge" width="120">
                 </div>
                 
                 <p>Since 2018, TestUrSelf has been the trusted platform for GATE Metallurgy aspirants, producing consistent top rankers including AIR-1 in 2019, 2021, and 2022. Our proven methodology combines comprehensive syllabus coverage with cutting-edge assessment tools.</p>
