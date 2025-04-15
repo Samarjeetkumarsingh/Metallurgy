@@ -1212,7 +1212,7 @@ max-width: 100%;
                     <div class="feature-card">
                         <i class="fas fa-video"></i>
                         <h4>Concept Mastery Series</h4>
-                        <p>200+ hours of video lectures by IIT/NIT professors focusing on high-weightage topics and problem-solving techniques.</p>
+                        <p>350+ hours of video lectures by GATE Top Rankers inlcuded AIR-1 focusing on high-weightage topics and problem-solving techniques.</p>
                     </div>
                     
                     <div class="feature-card">
