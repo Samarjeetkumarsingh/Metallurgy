@@ -26,6 +26,8 @@
             color: var(--dark);
             background-color: #f5f7fa;
             overflow-x: hidden;
+            width:96%
+            max-width:100%
         }
         
         .gate-blog-container {
